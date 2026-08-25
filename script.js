@@ -2,6 +2,7 @@ const form = document.querySelector('#estimate-form');
 const panels = [...document.querySelectorAll('.form-panel')];
 const indicators = [...document.querySelectorAll('[data-step-indicator]')];
 const errorMessage = document.querySelector('.form-error');
+const leadsEndpoint = 'https://script.google.com/macros/s/AKfycbylZQSBgz-SRxRVkpYCLHU9O2VnuG6UXM34KMxH1fGUOKBfezdiQEU7NPuPKDlkomKDPg/exec';
 let currentStep = 1;
 
 function fieldsForStep(step) {
@@ -57,15 +58,33 @@ form.addEventListener('input', (event) => {
   errorMessage.textContent = '';
 });
 
-form.addEventListener('submit', (event) => {
+form.addEventListener('submit', async (event) => {
   event.preventDefault();
   if (!validateStep(3)) return;
 
-  form.querySelector('.steps').hidden = true;
-  panels.forEach((panel) => panel.classList.remove('is-active'));
-  form.querySelector('.form-success').hidden = false;
+  const submitButton = form.querySelector('.submit-button');
+  const originalText = submitButton.textContent;
+
+  submitButton.disabled = true;
+  submitButton.textContent = 'Envoi en cours…';
   errorMessage.textContent = '';
-  form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+  try {
+    await fetch(leadsEndpoint, {
+      method: 'POST',
+      mode: 'no-cors',
+      body: new FormData(form),
+    });
+
+    form.querySelector('.steps').hidden = true;
+    panels.forEach((panel) => panel.classList.remove('is-active'));
+    form.querySelector('.form-success').hidden = false;
+    form.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  } catch (error) {
+    errorMessage.textContent = "L'envoi n'a pas fonctionné. Merci de réessayer ou de nous contacter directement.";
+    submitButton.disabled = false;
+    submitButton.textContent = originalText;
+  }
 });
 
 document.querySelectorAll('.faq-list details').forEach((detail) => {
