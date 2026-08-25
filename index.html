@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Estimation immobilière gratuite à Poitiers avec Lamirault Immobilier." />
+    <title>Estimation immobilière à Poitiers | Lamirault Immobilier</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Lamirault Immobilier — accueil">
+        <img src="assets/raw-7.png" alt="Lamirault Immobilier" />
+      </a>
+      <a class="phone-button" href="tel:+33586160919">
+        <span aria-hidden="true">☎</span> 05 86 16 09 19
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Faites estimer votre bien à Poitiers</h1>
+            <p>Obtenez une première estimation gratuite de votre maison, appartement ou terrain, puis échangez avec un professionnel local pour vendre au bon prix.</p>
+            <ul class="hero-points">
+              <li>Estimation gratuite</li>
+              <li>Expertise locale</li>
+              <li>Sans engagement</li>
+            </ul>
+          </div>
+          <div class="hero-card">
+            <div class="hero-card-inner">
+              <h2>Démarrez votre estimation</h2>
+              <p>Remplissez le formulaire ci-dessous en quelques minutes</p>
+              <a class="button button-primary button-wide" href="#estimation">Commencer mon estimation <span>↗</span></a>
+              <small>Réponse sous 72h • 100% gratuit</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section benefits" id="avantages">
+        <div class="container">
+          <div class="section-heading">
+            <img class="mark" src="assets/raw-4.png" alt="" />
+            <div>
+              <h2>Pourquoi choisir Lamirault Immobilier</h2>
+              <p>Une agence locale et indépendante à votre écoute</p>
+            </div>
+          </div>
+          <div class="benefit-grid">
+            <article class="benefit-card">
+              <span class="icon-box"><img src="assets/icon-7.svg" alt="" /></span>
+              <h3>Estimation gratuite</h3>
+              <p>Aucun frais pour obtenir une première estimation de votre bien immobilier</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-box"><img src="assets/icon-8.svg" alt="" /></span>
+              <h3>Expertise locale</h3>
+              <p>Connaissance fine du marché de Poitiers et de la Vienne pour une estimation juste</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-box"><img src="assets/icon-9.svg" alt="" /></span>
+              <h3>Accompagnement personnalisé</h3>
+              <p>Un interlocuteur unique qui vous suit de A à Z dans votre projet de vente</p>
+            </article>
+            <article class="benefit-card">
+              <span class="icon-box"><img src="assets/icon-10.svg" alt="" /></span>
+              <h3>Agence indépendante</h3>
+              <p>Structure à taille humaine pour un service de proximité et réactif</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section estimate-section" id="estimation">
+        <div class="container">
+          <div class="section-heading centered">
+            <h2>Demandez votre estimation gratuite</h2>
+            <p>Complétez le formulaire ci-dessous pour recevoir une estimation de votre bien. Nous vous recontacterons rapidement pour échanger sur votre projet.</p>
+          </div>
+
+          <form class="estimate-form" id="estimate-form" novalidate>
+            <div class="steps" aria-label="Progression du formulaire">
+              <div class="step is-active" data-step-indicator="1"><span>1</span><b>Votre bien</b></div>
+              <div class="step" data-step-indicator="2"><span>2</span><b>Votre projet</b></div>
+              <div class="step" data-step-indicator="3"><span>3</span><b>Vos coordonnées</b></div>
+            </div>
+
+            <div class="form-panel is-active" data-panel="1">
+              <h3>Parlez-nous de votre bien</h3>
+              <fieldset>
+                <legend>Type de bien *</legend>
+                <div class="choice-grid two-columns">
+                  <label class="choice"><input type="radio" name="propertyType" value="Maison" required /><span>Maison</span></label>
+                  <label class="choice"><input type="radio" name="propertyType" value="Appartement" /><span>Appartement</span></label>
+                  <label class="choice"><input type="radio" name="propertyType" value="Terrain" /><span>Terrain</span></label>
+                  <label class="choice"><input type="radio" name="propertyType" value="Immeuble" /><span>Immeuble</span></label>
+                </div>
+              </fieldset>
+              <div class="field-grid">
+                <label>Ville *<input name="city" required placeholder="Ex: Poitiers" /></label>
+                <label>Code postal *<input name="postcode" required inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="Ex: 86000" /></label>
+                <label>Surface approximative (m²) *<input name="surface" required type="number" min="1" placeholder="Ex: 120" /></label>
+                <label>Nombre de pièces *<input name="rooms" required type="number" min="1" placeholder="Ex: 5" /></label>
+              </div>
+              <fieldset>
+                <legend>État du bien *</legend>
+                <div class="choice-grid three-columns">
+                  <label class="choice"><input type="radio" name="condition" value="À rénover" required /><span>À rénover</span></label>
+                  <label class="choice"><input type="radio" name="condition" value="Bon état" /><span>Bon état</span></label>
+                  <label class="choice"><input type="radio" name="condition" value="Très bon état" /><span>Très bon état</span></label>
+                </div>
+              </fieldset>
+              <div class="form-actions end"><button class="button next-button" type="button">Continuer <span>›</span></button></div>
+            </div>
+
+            <div class="form-panel" data-panel="2">
+              <h3>Votre projet de vente</h3>
+              <fieldset>
+                <legend>Votre projet *</legend>
+                <div class="choice-grid one-column">
+                  <label class="choice"><input type="radio" name="project" value="Estimation simple" required /><span>Estimation simple</span></label>
+                  <label class="choice"><input type="radio" name="project" value="Vente prochaine" /><span>Vente prochaine</span></label>
+                  <label class="choice"><input type="radio" name="project" value="Vente en cours de réflexion" /><span>Vente en cours de réflexion</span></label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Délai envisagé *</legend>
+                <div class="choice-grid two-columns">
+                  <label class="choice"><input type="radio" name="timeline" value="Dès que possible" required /><span>Dès que possible</span></label>
+                  <label class="choice"><input type="radio" name="timeline" value="0 à 3 mois" /><span>0 à 3 mois</span></label>
+                  <label class="choice"><input type="radio" name="timeline" value="3 à 6 mois" /><span>3 à 6 mois</span></label>
+                  <label class="choice"><input type="radio" name="timeline" value="6 mois et plus" /><span>6 mois et plus</span></label>
+                </div>
+              </fieldset>
+              <fieldset>
+                <legend>Bien déjà en vente ? *</legend>
+                <div class="choice-grid two-columns">
+                  <label class="choice"><input type="radio" name="listed" value="Oui" required /><span>Oui</span></label>
+                  <label class="choice"><input type="radio" name="listed" value="Non" /><span>Non</span></label>
+                </div>
+              </fieldset>
+              <div class="form-actions"><button class="button button-secondary back-button" type="button">‹ &nbsp; Retour</button><button class="button next-button" type="button">Continuer <span>›</span></button></div>
+            </div>
+
+            <div class="form-panel" data-panel="3">
+              <h3>Comment vous recontacter ?</h3>
+              <div class="field-grid">
+                <label>Prénom *<input name="firstname" required autocomplete="given-name" /></label>
+                <label>Nom *<input name="lastname" required autocomplete="family-name" /></label>
+                <label class="full-width">Téléphone *<input name="phone" required autocomplete="tel" inputmode="tel" placeholder="06 12 34 56 78" /></label>
+                <label class="full-width">Email *<input name="email" required type="email" autocomplete="email" placeholder="votre@email.fr" /></label>
+              </div>
+              <label class="consent"><input type="checkbox" name="consent" required /><span>J'accepte d'être recontacté dans le cadre de ma demande d'estimation *</span></label>
+              <p class="reassurance">Réponse rapide • Estimation gratuite • Sans engagement</p>
+              <div class="form-actions"><button class="button button-secondary back-button" type="button">‹ &nbsp; Retour</button><button class="button submit-button" type="submit">Recevoir mon estimation</button></div>
+            </div>
+            <p class="form-error" role="alert" aria-live="polite"></p>
+            <div class="form-success" hidden>
+              <span>✓</span><h3>Votre demande a bien été envoyée.</h3><p>Un conseiller Lamirault Immobilier vous recontactera rapidement.</p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section selling-section">
+        <div class="container selling-grid">
+          <img class="selling-image" src="assets/raw-1.jpeg" alt="Intérieur d'une maison mise en valeur par Lamirault Immobilier" />
+          <div class="selling-copy">
+            <h2>Vendre avec Lamirault Immobilier</h2>
+            <ul class="selling-list">
+              <li><img src="assets/icon-13.svg" alt="" /><div><h3>Connaissance du marché local</h3><p>Une expertise précise du marché de Poitiers et ses alentours pour une estimation cohérente avec la réalité du terrain.</p></div></li>
+              <li><img src="assets/icon-14.svg" alt="" /><div><h3>Stratégie de vente adaptée</h3><p>Mise en place d'une stratégie commerciale personnalisée pour valoriser votre bien et attirer les bons acquéreurs.</p></div></li>
+              <li><img src="assets/icon-15.svg" alt="" /><div><h3>Accompagnement complet</h3><p>De la mise en vente jusqu'à la signature, nous vous accompagnons à chaque étape.</p></div></li>
+              <li><img src="assets/icon-16.svg" alt="" /><div><h3>Interlocuteur unique</h3><p>Un conseiller dédié qui connaît votre dossier et reste disponible tout au long de votre projet.</p></div></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section trust-section">
+        <div class="container">
+          <div class="section-heading centered"><h2>Une agence locale de confiance</h2><p>Des valeurs fortes pour vous accompagner sereinement</p></div>
+          <div class="trust-grid">
+            <article><span class="round-icon"><img src="assets/icon-7.svg" alt="" /></span><h3>Présence locale</h3><p>Implantés à Poitiers et dans la Vienne</p></article>
+            <article><span class="round-icon"><img src="assets/icon-8.svg" alt="" /></span><h3>Accompagnement humain</h3><p>Une relation de confiance et de proximité</p></article>
+            <article><span class="round-icon"><img src="assets/icon-9.svg" alt="" /></span><h3>Agence indépendante</h3><p>Structure à taille humaine et réactive</p></article>
+            <article><span class="round-icon"><img src="assets/icon-10.svg" alt="" /></span><h3>Suivi personnalisé</h3><p>Un interlocuteur unique pour votre projet</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section">
+        <div class="narrow-container">
+          <div class="section-heading centered"><h2>Questions fréquentes</h2><p>Tout ce que vous devez savoir sur notre service d'estimation</p></div>
+          <div class="faq-list">
+            <details><summary>L'estimation est-elle vraiment gratuite ?</summary><p>Oui, la première estimation est entièrement gratuite et sans engagement.</p></details>
+            <details><summary>Suis-je obligé de mettre en vente mon bien ensuite ?</summary><p>Non. Vous restez entièrement libre de la suite donnée à votre projet.</p></details>
+            <details><summary>Sous quel délai serai-je recontacté ?</summary><p>Notre équipe vous recontacte généralement sous 72 heures ouvrées.</p></details>
+            <details><summary>Intervenez-vous uniquement à Poitiers ?</summary><p>Nous intervenons à Poitiers et plus largement dans la Vienne.</p></details>
+            <details><summary>Est-ce utile même si je ne souhaite pas vendre tout de suite ?</summary><p>Oui, connaître la valeur actuelle de votre bien aide à préparer votre projet.</p></details>
+            <details><summary>Quelle différence entre estimation en ligne et estimation accompagnée ?</summary><p>L'estimation accompagnée affine la première évaluation grâce à la connaissance du terrain et aux particularités de votre bien.</p></details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">FOOTER DU SITE ACTUEL</footer>
+
+    <aside class="sticky-cta" aria-label="Demander une estimation">
+      <a class="button button-primary" href="#estimation">Obtenir mon estimation gratuite <span>↗</span></a>
+      <p>Réponse rapide • Estimation gratuite • Sans engagement</p>
+    </aside>
+    <script src="script.js"></script>
+  </body>
+</html>
