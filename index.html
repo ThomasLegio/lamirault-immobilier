@@ -84,14 +84,20 @@
           </div>
 
           <form class="estimate-form" id="estimate-form" novalidate>
-            <div class="steps" aria-label="Progression du formulaire">
-              <div class="step is-active" data-step-indicator="1"><span>1</span><b>Votre bien</b></div>
-              <div class="step" data-step-indicator="2"><span>2</span><b>Votre projet</b></div>
-              <div class="step" data-step-indicator="3"><span>3</span><b>Vos coordonnées</b></div>
+            <div class="form-progress">
+              <p class="step-caption">Étape <span id="current-step">1</span> sur 5 <span aria-hidden="true">·</span> <strong id="current-step-name">Votre bien</strong></p>
+              <ol class="steps" aria-label="Progression du formulaire">
+                <li class="step is-active" data-step-indicator="1" aria-current="step"><span>1</span><b>Votre bien</b></li>
+                <li class="step" data-step-indicator="2"><span>2</span><b>Les détails</b></li>
+                <li class="step" data-step-indicator="3"><span>3</span><b>Votre projet</b></li>
+                <li class="step" data-step-indicator="4"><span>4</span><b>Contact</b></li>
+                <li class="step" data-step-indicator="5"><span>5</span><b>Récapitulatif</b></li>
+              </ol>
             </div>
 
-            <div class="form-panel is-active" data-panel="1">
-              <h3>Parlez-nous de votre bien</h3>
+            <div class="form-panel is-active" data-panel="1" aria-labelledby="location-title">
+              <h3 id="location-title" tabindex="-1">Quel bien souhaitez-vous faire estimer ?</h3>
+              <p class="panel-intro">Commençons par le type de bien et sa localisation. Les champs marqués d’un * sont obligatoires.</p>
               <fieldset>
                 <legend>Type de bien *</legend>
                 <div class="choice-grid two-columns">
@@ -102,12 +108,23 @@
                 </div>
               </fieldset>
               <div class="field-grid">
-                <label>Ville *<input name="city" required placeholder="Ex: Poitiers" /></label>
-                <label>Code postal *<input name="postcode" required inputmode="numeric" pattern="[0-9]{5}" maxlength="5" placeholder="Ex: 86000" /></label>
-                <label>Surface approximative (m²) *<input name="surface" required type="number" min="1" placeholder="Ex: 120" /></label>
-                <label>Nombre de pièces *<input name="rooms" required type="number" min="1" placeholder="Ex: 5" /></label>
+                <label>Code postal du bien *<input id="postcode" name="postcode" required inputmode="numeric" autocomplete="off" pattern="[0-9]{5}" maxlength="5" placeholder="Ex. : 86000" aria-describedby="city-help" /></label>
+                <label id="city-select-field">Commune du bien *<select id="city-select" name="city" required disabled aria-describedby="city-help"><option value="">Saisissez d’abord le code postal</option></select></label>
+                <label id="city-manual-field" hidden>Commune du bien *<input id="city-manual" name="city" required disabled maxlength="100" autocomplete="off" placeholder="Ex. : Poitiers" aria-describedby="city-help" /></label>
               </div>
-              <fieldset>
+              <p class="field-help location-help" id="city-help" role="status">La commune sera proposée à partir des 5 chiffres du code postal.</p>
+              <button class="text-button" id="retry-city" type="button" hidden>Réessayer la recherche automatique</button>
+              <div class="form-actions end"><button class="button next-button" type="button">Continuer <span aria-hidden="true">›</span></button></div>
+            </div>
+
+            <div class="form-panel" data-panel="2" aria-labelledby="details-title">
+              <h3 id="details-title" tabindex="-1">Précisons les caractéristiques de votre bien</h3>
+              <p class="panel-intro" id="property-help">Une surface approximative suffit pour cette première demande.</p>
+              <div class="field-grid">
+                <label><span id="surface-label">Surface habitable (m²) *</span><input name="surface" required type="number" min="1" step="0.1" placeholder="Ex. : 120" /></label>
+                <label id="rooms-field"><span id="rooms-label">Nombre de pièces *</span><input name="rooms" required type="number" min="1" step="1" placeholder="Ex. : 5" aria-describedby="rooms-help" /><small class="field-help" id="rooms-help">Pièces de vie et chambres, hors cuisine et salles d’eau.</small></label>
+              </div>
+              <fieldset id="condition-fields">
                 <legend>État du bien *</legend>
                 <div class="choice-grid three-columns">
                   <label class="choice"><input type="radio" name="condition" value="À rénover" required /><span>À rénover</span></label>
@@ -115,29 +132,31 @@
                   <label class="choice"><input type="radio" name="condition" value="Très bon état" /><span>Très bon état</span></label>
                 </div>
               </fieldset>
-              <div class="form-actions end"><button class="button next-button" type="button">Continuer <span>›</span></button></div>
+              <div class="form-actions"><button class="button button-secondary back-button" type="button">‹ &nbsp; Retour</button><button class="button next-button" type="button">Continuer <span aria-hidden="true">›</span></button></div>
             </div>
 
-            <div class="form-panel" data-panel="2">
-              <h3>Votre projet de vente</h3>
+            <div class="form-panel" data-panel="3" aria-labelledby="project-title">
+              <h3 id="project-title" tabindex="-1">Où en êtes-vous dans votre projet ?</h3>
+              <p class="panel-intro">Ces informations nous aident à vous accompagner au bon moment.</p>
               <fieldset>
                 <legend>Votre projet *</legend>
                 <div class="choice-grid one-column">
-                  <label class="choice"><input type="radio" name="project" value="Estimation simple" required /><span>Estimation simple</span></label>
-                  <label class="choice"><input type="radio" name="project" value="Vente prochaine" /><span>Vente prochaine</span></label>
-                  <label class="choice"><input type="radio" name="project" value="Vente en cours de réflexion" /><span>Vente en cours de réflexion</span></label>
+                  <label class="choice"><input type="radio" name="project" value="Estimation simple" required /><span>Je souhaite connaître la valeur de mon bien</span></label>
+                  <label class="choice"><input type="radio" name="project" value="Vente prochaine" /><span>Je souhaite vendre mon bien</span></label>
+                  <label class="choice"><input type="radio" name="project" value="Vente en cours de réflexion" /><span>Je réfléchis à une vente</span></label>
                 </div>
               </fieldset>
-              <fieldset>
-                <legend>Délai envisagé *</legend>
+              <p class="field-help" id="estimate-only-help" hidden>Vous pouvez demander une estimation sans avoir de projet de vente.</p>
+              <fieldset id="timeline-fields" hidden disabled>
+                <legend>Quand envisagez-vous de vendre ? *</legend>
                 <div class="choice-grid two-columns">
-                  <label class="choice"><input type="radio" name="timeline" value="Dès que possible" required /><span>Dès que possible</span></label>
-                  <label class="choice"><input type="radio" name="timeline" value="0 à 3 mois" /><span>0 à 3 mois</span></label>
+                  <label class="choice"><input type="radio" name="timeline" value="0 à 3 mois" required /><span>Dans les 3 prochains mois</span></label>
                   <label class="choice"><input type="radio" name="timeline" value="3 à 6 mois" /><span>3 à 6 mois</span></label>
                   <label class="choice"><input type="radio" name="timeline" value="6 mois et plus" /><span>6 mois et plus</span></label>
+                  <label class="choice"><input type="radio" name="timeline" value="À définir" /><span>Je ne sais pas encore</span></label>
                 </div>
               </fieldset>
-              <fieldset>
+              <fieldset id="listed-fields" hidden disabled>
                 <legend>Bien déjà en vente ? *</legend>
                 <div class="choice-grid two-columns">
                   <label class="choice"><input type="radio" name="listed" value="Oui" required /><span>Oui</span></label>
@@ -147,21 +166,31 @@
               <div class="form-actions"><button class="button button-secondary back-button" type="button">‹ &nbsp; Retour</button><button class="button next-button" type="button">Continuer <span>›</span></button></div>
             </div>
 
-            <div class="form-panel" data-panel="3">
-              <h3>Comment vous recontacter ?</h3>
+            <div class="form-panel" data-panel="4" aria-labelledby="contact-title">
+              <h3 id="contact-title" tabindex="-1">Comment vous recontacter ?</h3>
+              <p class="panel-intro">Un conseiller échangera avec vous pour affiner l’estimation de votre bien.</p>
               <div class="field-grid">
-                <label>Prénom *<input name="firstname" required autocomplete="given-name" /></label>
-                <label>Nom *<input name="lastname" required autocomplete="family-name" /></label>
-                <label class="full-width">Téléphone *<input name="phone" required autocomplete="tel" inputmode="tel" placeholder="06 12 34 56 78" /></label>
-                <label class="full-width">Email *<input name="email" required type="email" autocomplete="email" placeholder="votre@email.fr" /></label>
+                <label>Prénom *<input name="firstname" required maxlength="100" autocomplete="given-name" /></label>
+                <label>Nom *<input name="lastname" required maxlength="100" autocomplete="family-name" /></label>
+                <label class="full-width">Téléphone *<input name="phone" required type="tel" maxlength="30" autocomplete="tel" placeholder="06 12 34 56 78" aria-describedby="phone-help" /><small class="field-help" id="phone-help">Numéro français à 10 chiffres ou international avec indicatif (ex. : +33).</small></label>
+                <label class="full-width">Email *<input name="email" required type="email" maxlength="254" autocomplete="email" placeholder="votre@email.fr" /></label>
               </div>
+              <div class="form-actions"><button class="button button-secondary back-button" type="button">‹ &nbsp; Retour</button><button class="button next-button" type="button">Vérifier ma demande <span aria-hidden="true">›</span></button></div>
+            </div>
+
+            <div class="form-panel" data-panel="5" aria-labelledby="review-title">
+              <h3 id="review-title" tabindex="-1">Tout est correct ?</h3>
+              <p class="panel-intro">Vérifiez vos informations avant d’envoyer votre demande d’estimation.</p>
+              <div class="review-list" id="estimate-review"></div>
               <label class="consent"><input type="checkbox" name="consent" required /><span>J'accepte d'être recontacté dans le cadre de ma demande d'estimation *</span></label>
               <p class="reassurance">Réponse rapide • Estimation gratuite • Sans engagement</p>
-              <div class="form-actions"><button class="button button-secondary back-button" type="button">‹ &nbsp; Retour</button><button class="button submit-button" type="submit">Recevoir mon estimation</button></div>
+              <div class="form-actions"><button class="button button-secondary back-button" type="button">‹ &nbsp; Retour</button><button class="button submit-button" type="submit">Envoyer ma demande</button></div>
             </div>
             <p class="form-error" role="alert" aria-live="polite"></p>
-            <div class="form-success" hidden>
-              <span>✓</span><h3>Votre demande a bien été envoyée.</h3><p>Un conseiller Lamirault Immobilier vous recontactera rapidement.</p>
+            <div class="form-success" role="status" tabindex="-1" aria-labelledby="form-success-title" hidden>
+              <span aria-hidden="true">✓</span>
+              <h3 id="form-success-title">Votre demande a bien été envoyée !</h3>
+              <p>Merci pour votre confiance. Votre demande sera traitée au plus vite et un conseiller Lamirault Immobilier vous recontactera rapidement.</p>
             </div>
           </form>
         </div>
