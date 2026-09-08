@@ -8,7 +8,7 @@
     <link rel="icon" type="image/png" href="assets/raw-7.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body id="top">
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href="https://www.lamiraultimmobilier.fr/" aria-label="Visiter le site de Lamirault Immobilier">
@@ -18,18 +18,23 @@
       </div>
     </header>
 
-    <main id="top">
+    <main>
       <section class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-grid">
           <div class="hero-copy">
-            <h1>Faites estimer votre bien à Poitiers</h1>
+            <div class="hero-title">
+              <h1>Faites estimer votre bien à <span class="sr-only">Poitiers</span><span class="hero-location" aria-hidden="true" data-longest="Saint-Georges-lès-Baillargeaux"><span class="hero-location-name is-active">Poitiers</span><span class="hero-location-name"></span></span></h1>
+            </div>
             <p>Obtenez une première estimation gratuite de votre maison, appartement ou terrain, puis échangez avec un professionnel local pour vendre au bon prix.</p>
-            <ul class="hero-points">
-              <li>Estimation gratuite</li>
-              <li>Expertise locale</li>
-              <li>Sans engagement</li>
-            </ul>
+            <div class="hero-proof">
+              <p>Une estimation précise, réalisée par une agence locale.</p>
+              <a class="google-reviews" href="https://www.google.com/search?sca_esv=59ff8373a70e433b&amp;rlz=1C5CHFA_enFR1086FR1088&amp;sxsrf=APpeQntqrAOumrxZmpZuoItoXLzFw9Cvbw:1788860152437&amp;q=google+lamirault+immobilier+avis&amp;si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_wDXhhGpeupvBZTMvDwADNkZ0GHONQQMAIS4j8Bku9yepVWkhJ6D6jTK31RtNOQBYdG608E%3D&amp;uds=AJ5uw18ntM3Q-42NR7dax1P9A6o1to6U6iK_xpPIVzYD436WlO2i_zdWkfoUdcczoot04ys-m1rQ3DiXS1MZ1J0fegML8knOSJR_bt1Lm7K9XChPc4jz3CzQ6nLEV0mLMLcbPNOqXIj9&amp;sa=X&amp;ved=2ahUKEwih_cCv196WAxVdVaQEHcPJLAQQ3PALegQIORAF&amp;biw=2133&amp;bih=1075&amp;dpr=0.9" target="_blank" rel="noopener noreferrer" aria-label="Avis Google : 5 sur 5, 32 avis — ouvrir dans un nouvel onglet">
+                <span class="google-reviews-brand" aria-hidden="true">Google</span>
+                <span class="google-reviews-rating"><span class="google-reviews-stars" aria-hidden="true">★★★★★</span><span><strong>5 / 5</strong><span class="google-reviews-count"> · 32 avis</span></span></span>
+                <span class="google-reviews-arrow" aria-hidden="true">↗</span>
+              </a>
+            </div>
           </div>
           <div class="hero-card">
             <div class="hero-card-inner">
@@ -238,7 +243,41 @@
       </section>
     </main>
 
-    <footer class="site-footer">FOOTER DU SITE ACTUEL</footer>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <p class="footer-brand">LAMIRAULT<br />IMMOBILIER<span class="footer-squares" aria-hidden="true"><span></span><span></span><span></span></span></p>
+          <div class="footer-actions">
+            <div class="footer-estimation">
+              <p class="footer-local">Votre agence immobilière locale<br />à Poitiers et dans la Vienne.</p>
+              <a class="button footer-estimation-cta" href="#estimation">Obtenir mon estimation gratuite <span aria-hidden="true">↗</span></a>
+            </div>
+            <a class="google-reviews footer-reviews" href="https://www.google.com/search?sca_esv=59ff8373a70e433b&amp;rlz=1C5CHFA_enFR1086FR1088&amp;sxsrf=APpeQntqrAOumrxZmpZuoItoXLzFw9Cvbw:1788860152437&amp;q=google+lamirault+immobilier+avis&amp;si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_wDXhhGpeupvBZTMvDwADNkZ0GHONQQMAIS4j8Bku9yepVWkhJ6D6jTK31RtNOQBYdG608E%3D&amp;uds=AJ5uw18ntM3Q-42NR7dax1P9A6o1to6U6iK_xpPIVzYD436WlO2i_zdWkfoUdcczoot04ys-m1rQ3DiXS1MZ1J0fegML8knOSJR_bt1Lm7K9XChPc4jz3CzQ6nLEV0mLMLcbPNOqXIj9&amp;sa=X&amp;ved=2ahUKEwih_cCv196WAxVdVaQEHcPJLAQQ3PALegQIORAF&amp;biw=2133&amp;bih=1075&amp;dpr=0.9" target="_blank" rel="noopener noreferrer" aria-label="Avis Google : 5 sur 5, 32 avis — ouvrir dans un nouvel onglet">
+              <span class="google-reviews-brand" aria-hidden="true">Google</span>
+              <span class="google-reviews-rating"><span class="google-reviews-stars" aria-hidden="true">★★★★★</span><span><strong>5 / 5</strong><span class="google-reviews-count"> · 32 avis</span></span></span>
+              <span class="google-reviews-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <a class="footer-phone" href="tel:+33586160919"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z" /></svg><span><span class="footer-phone-label">Appelez l’agence</span>05 86 16 09 19</span></a>
+          <div class="footer-details">
+            <address>25 allée du Bétin<br />86170 Neuville-de-Poitou, France</address>
+            <dl class="footer-hours" aria-label="Horaires d’ouverture">
+              <div><dt>Lundi – Vendredi</dt><dd>09:00 – 19:00</dd></div>
+              <div><dt>Samedi</dt><dd>09:00 – 17:00</dd></div>
+              <div><dt>Dimanche</dt><dd>Fermé</dd></div>
+            </dl>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <nav class="footer-links" aria-label="Informations sur l’agence">
+            <a href="https://www.lamiraultimmobilier.fr/">Site principal</a>
+            <a href="https://www.lamiraultimmobilier.fr/mentions-legales">Mentions légales</a>
+            <a href="https://app.declarations-juridiques.fr/processing-policy/lamirault-immobilier-999310907" target="_blank" rel="noopener noreferrer">Politique de protection des données<span class="sr-only"> — ouvrir dans un nouvel onglet</span></a>
+          </nav>
+          <a class="footer-back-top" href="#top" aria-label="Retour en haut de page" title="Retour en haut de page"><span aria-hidden="true">↑</span></a>
+        </div>
+      </div>
+    </footer>
 
     <aside class="sticky-cta" aria-label="Demander une estimation">
       <a class="button button-primary" href="#estimation">Obtenir mon estimation gratuite <span>↗</span></a>

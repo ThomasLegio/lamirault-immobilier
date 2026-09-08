@@ -378,13 +378,20 @@ updatePropertyFields();
 updateProjectFields();
 if (postcode.value) scheduleCityLookup();
 
-// Keep the mobile call to action from covering the form's fields and buttons.
+// Keep the existing mobile CTA clear of the form and the footer's own actions.
 const stickyCta = document.querySelector('.sticky-cta');
 if (stickyCta && 'IntersectionObserver' in window) {
-  const formObserver = new IntersectionObserver(([entry]) => {
-    stickyCta.classList.toggle('is-hidden', entry.isIntersecting);
+  const visibleSections = new Set();
+  const ctaObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) visibleSections.add(entry.target);
+      else visibleSections.delete(entry.target);
+    });
+    stickyCta.classList.toggle('is-hidden', visibleSections.size > 0);
   });
-  formObserver.observe(form);
+  ctaObserver.observe(form);
+  const footer = document.querySelector('.site-footer');
+  if (footer) ctaObserver.observe(footer);
 }
 
 document.querySelectorAll('.faq-list details').forEach((detail) => {
@@ -395,3 +402,61 @@ document.querySelectorAll('.faq-list details').forEach((detail) => {
     });
   });
 });
+
+// Visual enhancement only: the heading keeps a stable, accessible "Poitiers".
+function initCommuneRotation() {
+  const location = document.querySelector('.hero-location');
+  if (!location) return;
+
+  const communes = [
+    'Poitiers', 'Buxerolles', 'Saint-Benoît', 'Mignaloux-Beauvoir', 'Biard',
+    'Vouneuil-sous-Biard', 'Fontaine-le-Comte', 'Chasseneuil-du-Poitou',
+    'Migné-Auxances', 'Montamisé', 'Ligugé', 'Jaunay-Marigny',
+    'Saint-Georges-lès-Baillargeaux', 'Dissay', 'Nouaillé-Maupertuis',
+    'Smarves', 'Vivonne', 'Iteuil', 'Neuville-de-Poitou', 'Avanton',
+    'Cissé', 'Rouillé', 'Lusignan', 'Chauvigny', 'Saint-Julien-l’Ars',
+    'Fleuré', 'Gençay', 'Mirebeau', 'Vouillé', 'Lencloître', 'Châtellerault',
+  ];
+  const names = [...location.querySelectorAll('.hero-location-name')];
+  const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let index = 0;
+  let active = 0;
+  let visible = true;
+  let timer;
+
+  function syncRotation() {
+    clearInterval(timer);
+    if (motionPreference.matches) {
+      index = 0;
+      active = 0;
+      names.forEach((name, position) => {
+        name.textContent = position === 0 ? communes[0] : '';
+        name.classList.toggle('is-active', position === 0);
+      });
+    }
+    if (motionPreference.matches || !visible || document.hidden) return;
+    timer = setInterval(() => {
+      index = (index + 1) % communes.length;
+      const next = 1 - active;
+      names[next].textContent = communes[index];
+      names[next].classList.add('is-active');
+      names[active].classList.remove('is-active');
+      active = next;
+    }, 3000);
+  }
+
+  motionPreference.addEventListener('change', syncRotation);
+  document.addEventListener('visibilitychange', syncRotation);
+  window.addEventListener('pagehide', () => clearInterval(timer));
+  window.addEventListener('pageshow', syncRotation);
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver(([entry]) => {
+      visible = entry.isIntersecting;
+      syncRotation();
+    });
+    observer.observe(location);
+  }
+  syncRotation();
+}
+
+initCommuneRotation();
