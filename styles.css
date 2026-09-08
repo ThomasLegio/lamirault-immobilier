@@ -31,14 +31,17 @@ a { color: inherit; text-decoration: none; }
 .hero::after { content: ""; position: absolute; inset: 0; opacity: .1; background-image: radial-gradient(circle at 20% 30%, #fff 1px, transparent 1px); background-size: 26px 26px; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(110deg, rgba(10,66,117,.98) 10%, rgba(8,53,88,.88) 100%); }
 .hero-grid { position: relative; z-index: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }
-.hero-copy h1 { margin: 0 0 18px; max-width: 500px; font-size: clamp(42px, 4.4vw, 52px); line-height: 1.2; font-weight: 600; letter-spacing: .2px; }
+.hero-copy h1 { display: grid; margin: 0 0 18px; max-width: 500px; font-size: clamp(42px, 4.4vw, 52px); line-height: 1.2; font-weight: 600; letter-spacing: .2px; }
 .hero-copy { min-width: 0; }
 .hero-title { position: relative; max-width: 500px; }
-.hero-location { display: grid; color: var(--blue-light); font-size: .92em; overflow-wrap: anywhere; }
-/* The longest name sizes the shared row before JavaScript runs, at every width. */
-.hero-location::after { content: attr(data-longest); visibility: hidden; grid-area: 1 / 1; }
-.hero-location-name { grid-area: 1 / 1; opacity: 0; transform: translateY(3px); transition: opacity .3s ease, transform .3s ease; }
-.hero-location-name.is-active { opacity: 1; transform: translateY(0); }
+/* Size the complete heading so the inline town can wrap naturally without shifting the page. */
+.hero-heading-copy, .hero-heading-sizer { grid-area: 1 / 1; min-width: 0; }
+.hero-heading-sizer { visibility: hidden; }
+.hero-heading-sizer > span, .hero-location { font-size: .92em; overflow-wrap: anywhere; }
+.hero-location { color: var(--blue-light); }
+.hero-location-name { display: none; }
+.hero-location-name.is-active { display: inline; animation: commune-in .3s ease; }
+@keyframes commune-in { from { opacity: .35; } to { opacity: 1; } }
 .hero-copy > p { margin: 0; max-width: 510px; color: rgba(255,255,255,.9); font-size: 20px; line-height: 1.62; }
 .hero-proof { margin-top: 26px; display: grid; justify-items: start; gap: 12px; }
 .hero-proof > p { margin: 0; font-size: 16px; font-weight: 500; }
@@ -284,6 +287,6 @@ input::placeholder { color: #92979e; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .hero-location::after, .hero-location-name:not(.is-active) { display: none; }
+  .hero-heading-sizer { display: none; }
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
