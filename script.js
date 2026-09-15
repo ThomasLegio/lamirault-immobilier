@@ -442,7 +442,7 @@ function initCommuneRotation() {
       names[next].classList.add('is-active');
       names[active].classList.remove('is-active');
       active = next;
-    }, 3000);
+    }, 2000);
   }
 
   motionPreference.addEventListener('change', syncRotation);
