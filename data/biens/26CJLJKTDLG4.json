@@ -1,0 +1,211 @@
+{
+  "id": "26CJLJKTDLG4",
+  "reference": "24",
+  "slug": "maison-neuville-de-poitou-24",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/neuville-de-poitou-86170/26CJLJKTDLG4",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-22T00:45:08.922Z",
+  "importedAt": "2026-10-22T15:30:03.623Z",
+  "title": "Charmante maison en pierre de 157 m² avec préau, garage et cave",
+  "type": "Maison",
+  "city": "Neuville-de-Poitou",
+  "postalCode": "86170",
+  "district": "",
+  "price": 263900,
+  "priceLabel": "263 900 €",
+  "priceDetails": [
+    {
+      "label": "Prix hors honoraires",
+      "value": "250 000 €"
+    },
+    {
+      "label": "Honoraires TTC à la charge de l'acquéreur (5,56% du prix du bien hors honoraires)",
+      "value": "13 900 €"
+    }
+  ],
+  "feeNote": "Les honoraires sont à la charge de l'acquéreur",
+  "livingArea": 156.87,
+  "overallArea": null,
+  "plotArea": 923,
+  "rooms": 5,
+  "bedrooms": 4,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose cette charmante et authentique maison en pierre de taille, offrant un potentiel exceptionnel pour les amoureux de l'ancien et des beaux volumes.\n\nConstruite en 1850, cette demeure de caractère déploie une surface habitable d'environ 157 m² et se distingue par ses magnifiques éléments d'époque, notamment ses pierres apparentes et sa superbe cheminée.\n\nSituée dans un environnement paisible, elle dispose d'extérieurs rares avec un préau de 60 m², un cabanon de jardin ainsi qu'un garage équipé d'un puits de récupération d'eau. Une grande cave voûtée de 50 m² vient parfaire ce bien d'exception, idéale pour les amateurs de vin ou pour du stockage.\n\nDès le rez-de-chaussée, vous serez accueilli par une entrée fonctionnelle de plus de 5 m², menant à un salon de 20 m². L'entrée ouvre aussi l'accès à la salle à manger de 20 m² reliée à la cusine de pratiquement 15m².\n\nAu premier étage, un couloir dessert deux très grandes chambres de près de 20 m² chacune (19,80 m² et 20,07 m²). Vous y retrouverez également une salle d'eau de 4 m².\n\nAu deuxième étage, le charme continue avec deux autres chambres spacieuses (19,70 m² et 20,04 m²), parfaites pour des enfants ou des espaces de bureau, ainsi qu'une salle de bains fonctionnelle.\n\nCôté technique : cette maison est équipée d'un système de chauffage au fioul, de fenêtres en bois en simple vitrage, de volets battants en bois avec fermeture manuelle, et elle est raccordée au tout-à-l'égout.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "Exposition: ouest, est",
+        "923 m² de terrain"
+      ]
+    },
+    {
+      "title": "Intérieur",
+      "values": [
+        "Cuisine séparée, Cuisine intégrée",
+        "1 Salle de bain; 1 Salle de douche",
+        "2 WCs séparées",
+        "Salon (total 20 m²)",
+        "4 Chambres",
+        "Cave",
+        "Entrée séparée"
+      ]
+    },
+    {
+      "title": "Extérieur",
+      "values": [
+        "Pas de balcon",
+        "Jardin",
+        "Garage, Box de stationnement"
+      ]
+    },
+    {
+      "title": "Sécurité et services",
+      "values": [
+        "Alarme"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [
+      {
+        "type": "yearOfConstruction",
+        "label": "Année de construction",
+        "value": "1850"
+      },
+      {
+        "type": "heatingSystem",
+        "label": "Type de chauffage",
+        "value": "Chauffage central"
+      },
+      {
+        "type": "energySource",
+        "label": "Sources d'énergie",
+        "value": "Pétrole"
+      }
+    ],
+    "scales": [
+      {
+        "name": "Diagnostic de performance énergétique (DPE)",
+        "rating": "F",
+        "values": [
+          {
+            "value": "335 kWh/m².an",
+            "label": "Consommation (énergie primaire)"
+          },
+          {
+            "value": "331 kWh/m².an",
+            "label": "Énergie finale"
+          },
+          {
+            "value": "99 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      },
+      {
+        "name": "Indice d'émission de gaz à effet de serre (GES)",
+        "rating": "F",
+        "values": [
+          {
+            "value": "99 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Consommation d'énergie : Logement à consommation énergétique excessive : classe F",
+      "Diagnostic réalisé : Après le 1er juillet 2021",
+      "Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 6900 et 9380 € par an. Prix moyens des énergies indexés au 21/10/2026 (abonnement compris)."
+    ]
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "4d425fdf-2819-421f-a7be-0eb2695d1bd2",
+      "sourceUrl": "https://mms.seloger.com/4/d/4/2/4d425fdf-2819-421f-a7be-0eb2695d1bd2.jpg?ci_seal=b6a6b4f3dcb91924af0aee14f3e9a401088dfb96",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/01.jpg",
+      "alt": "Façade de la maison — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "d6000c4b-ea7c-4118-85b2-b0e993734549",
+      "sourceUrl": "https://mms.seloger.com/d/6/0/0/d6000c4b-ea7c-4118-85b2-b0e993734549.jpg?ci_seal=f11699500b37676fcc9c55c0c9ce569b1d05612b",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/02.jpg",
+      "alt": "Façade de la maison — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "aada9b4f-662e-463f-b587-1953399575c4",
+      "sourceUrl": "https://mms.seloger.com/a/a/d/a/aada9b4f-662e-463f-b587-1953399575c4.jpg?ci_seal=52f626e6f8fa1730da3cd69ca908ea5a3430e63a",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/03.jpg",
+      "alt": "Escalier — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "473c0dee-681f-466b-a192-66544cbbc1b9",
+      "sourceUrl": "https://mms.seloger.com/4/7/3/c/473c0dee-681f-466b-a192-66544cbbc1b9.jpg?ci_seal=897ae8f4eba5b8530bd6a076cd56eabfd57d7a83",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/04.jpg",
+      "alt": "Salon — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "05208210-9c55-4c35-ae8d-dbdcbd9be14e",
+      "sourceUrl": "https://mms.seloger.com/0/5/2/0/05208210-9c55-4c35-ae8d-dbdcbd9be14e.jpg?ci_seal=8772f79a3ee2b7db0459c4c25e0973cda44e5a1f",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/05.jpg",
+      "alt": "Cuisine — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "1731f071-c964-42c1-bf8e-39dd18dbf3ea",
+      "sourceUrl": "https://mms.seloger.com/1/7/3/1/1731f071-c964-42c1-bf8e-39dd18dbf3ea.jpg?ci_seal=b708ccbd84d6bb383d85b2ab7cb0c4506309f975",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/06.jpg",
+      "alt": "Bureau — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "fdb6ff54-8a3b-4db5-9ef4-7fa3caa198e8",
+      "sourceUrl": "https://mms.seloger.com/f/d/b/6/fdb6ff54-8a3b-4db5-9ef4-7fa3caa198e8.jpg?ci_seal=794766643139adb6ffc94ae5085ea9376a1bddc1",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/07.jpg",
+      "alt": "Escalier — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "39760070-aa0b-4991-b53a-381db8d9557b",
+      "sourceUrl": "https://mms.seloger.com/3/9/7/6/39760070-aa0b-4991-b53a-381db8d9557b.jpg?ci_seal=ef341b01a1a5733bbe17419fd22d927dbbb11342",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/08.jpg",
+      "alt": "Chambre — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "030e3ea9-19e4-4e4c-8a83-015a345688f9",
+      "sourceUrl": "https://mms.seloger.com/0/3/0/e/030e3ea9-19e4-4e4c-8a83-015a345688f9.jpg?ci_seal=09d51227c325e5f9ee76f020a77b1a0372e1ce97",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/09.jpg",
+      "alt": "Salle de bain — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "59032e32-3bec-476f-a1f2-03dfc64df7f1",
+      "sourceUrl": "https://mms.seloger.com/5/9/0/3/59032e32-3bec-476f-a1f2-03dfc64df7f1.jpg?ci_seal=e5896bcd745a49f7d905441be6a7736512007dda",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/10.jpg",
+      "alt": "Chambre — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "a22f9f76-68a7-4755-ab79-b04377ce02e7",
+      "sourceUrl": "https://mms.seloger.com/a/2/2/f/a22f9f76-68a7-4755-ab79-b04377ce02e7.jpg?ci_seal=3c0de72c56a6c4a1c5b0c39f8a1ce1d378115f81",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/11.jpg",
+      "alt": "Chambre — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "b929cfce-f7f0-4fab-a674-94c80415e5f3",
+      "sourceUrl": "https://mms.seloger.com/b/9/2/9/b929cfce-f7f0-4fab-a674-94c80415e5f3.jpg?ci_seal=c71a8fdd339cf9eb09558faea2f64923413bbd75",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/12.jpg",
+      "alt": "Chambre — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "1e9584db-7cae-4c2a-ab55-621223903dee",
+      "sourceUrl": "https://mms.seloger.com/1/e/9/5/1e9584db-7cae-4c2a-ab55-621223903dee.jpg?ci_seal=30b2de6d943dcd9db698c863d2ec5bcb09459a1e",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/13.jpg",
+      "alt": "Jardin — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "5dcfc17f-35a9-4c88-b88d-cabeb0ffb6ef",
+      "sourceUrl": "https://mms.seloger.com/5/d/c/f/5dcfc17f-35a9-4c88-b88d-cabeb0ffb6ef.jpg?ci_seal=6e9f86e8f79cf1a6d16ae5f301a7be5be040430c",
+      "src": "/assets/biens/maison-neuville-de-poitou-24/14.jpg",
+      "alt": "Garage — maison à Neuville-de-Poitou"
+    }
+  ],
+  "contentHash": "c55b7e68edf73e0fe9b94a5d98eee681f43039e732733e804f1ea58ac5e8add3"
+}

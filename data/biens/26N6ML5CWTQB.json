@@ -1,0 +1,66 @@
+{
+  "id": "26N6ML5CWTQB",
+  "reference": "31",
+  "slug": "terrain-vouille-31",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/vouille-86190/26N6ML5CWTQB",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-08T01:06:47.321Z",
+  "importedAt": "2026-10-22T15:30:03.646Z",
+  "title": "Terrain viabilisé - lot 42",
+  "type": "Terrain",
+  "city": "Vouillé",
+  "postalCode": "86190",
+  "district": "",
+  "price": 39900,
+  "priceLabel": "39 900 €",
+  "priceDetails": [],
+  "feeNote": "Les honoraires sont à la charge du vendeur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 509,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose ce terrain viabilisé, d'une surface de 509 m2, idéalement situé à Vouillé.\n\nVous souhaitez faire construire votre maison dans un charmant village fleuri et très actif. Vouillé offre un environnement particulièrement préservé, avec une magnifique rivière qui serpente le village, des parcs paysagers et une forêt domaniale.\n\nPermis de construire déposable immédiatement. Le lotissement est situé à seulement vingt minutes de Poitiers, une localisation privilégiée. L'offre commerciale est variée et de qualité : Restaurants, épicerie, hôtels, boulangeries, tabac presse, banque, assurances, fleuriste, instituts de beauté, coiffeurs, traiteur, paysagistes, agence immobilière, garages, supermarchés, maçons, électriciens. La commune de Vouillé dispose d'écoles pouvant accueillir vos enfants de la maternelle au collège.\n\nNous vous proposons un large choix de surface à des prix attractifs. Libre de constructeurs.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "509 m² de terrain"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "ee0aec23-4cca-4330-b7e1-f379e7c320df",
+      "sourceUrl": "https://mms.seloger.com/e/e/0/a/ee0aec23-4cca-4330-b7e1-f379e7c320df.jpg?ci_seal=8a754bceb4e499f3fec4de2281324992674f41a9",
+      "src": "/assets/biens/terrain-vouille-31/01.jpg",
+      "alt": "Jardin — terrain à Vouillé"
+    },
+    {
+      "sourceId": "5e2fa14c-c594-487d-aef5-8081b5804629",
+      "sourceUrl": "https://mms.seloger.com/5/e/2/f/5e2fa14c-c594-487d-aef5-8081b5804629.jpg?ci_seal=0f2e6d0fd62a1c42f457b28bc0852e78c39880eb",
+      "src": "/assets/biens/terrain-vouille-31/02.jpg",
+      "alt": "Jardin — terrain à Vouillé"
+    },
+    {
+      "sourceId": "76831483-fba3-4f28-a7d8-dfb8a7ef0685",
+      "sourceUrl": "https://mms.seloger.com/7/6/8/3/76831483-fba3-4f28-a7d8-dfb8a7ef0685.jpg?ci_seal=051ffa287308da6801ff98fa21ec7ae5a1adbb40",
+      "src": "/assets/biens/terrain-vouille-31/03.jpg",
+      "alt": "Jardin — terrain à Vouillé"
+    },
+    {
+      "sourceId": "dfa00e48-d678-48da-ae63-ea2d15cf6ddd",
+      "sourceUrl": "https://mms.seloger.com/d/f/a/0/dfa00e48-d678-48da-ae63-ea2d15cf6ddd.jpg?ci_seal=bc9573b6401b1638d91c331544048107696e5cfd",
+      "src": "/assets/biens/terrain-vouille-31/04.jpg",
+      "alt": "Façade de la maison — terrain à Vouillé"
+    }
+  ],
+  "contentHash": "cf99a05d4de38558ea450543750210504255529dce9478e9394e77985bbac39e"
+}

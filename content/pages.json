@@ -1,0 +1,149 @@
+[
+  {
+    "route": "a-propos",
+    "alias": "a-propos",
+    "title": "\n    Spécialiste de l'immobilier à Neuville-de-Poitou\n  ",
+    "description": "Spécialiste de l’immobilier à Neuville‑de‑Poitou : vente, estimation et accompagnement personnalisé pour concrétiser votre projet immobilier avec sérénité.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/027515b10b8ded8c47b0c07f6eb622e6-0cdf4d4ed5f6.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-a-propos.css\">",
+    "content": "a-propos.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "À propos"
+  },
+  {
+    "route": "actualite",
+    "alias": "actualite",
+    "title": "\n    Retrouvez toute l'actu de LAMIRAULT IMMOBILIER\n  ",
+    "description": "Retrouvez sur cette page toutes les actualités de l'entreprise LAMIRAULT IMMOBILIER et de notre secteur d'activité. Restez informé des dernières nouveautés.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/135a15536851387bbc0f5179f4a80bec-972918b34748.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-actualite.css\">",
+    "content": "actualite.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Actualités"
+  },
+  {
+    "route": "contact",
+    "alias": "contact",
+    "title": "\n    Contactez LAMIRAULT IMMOBILIER à Neuville-de-Poitou\n  ",
+    "description": "Contactez l'entreprise LAMIRAULT IMMOBILIER par téléphone ou via le formulaire pour tout renseignement complémentaire ou afin de demander votre devis.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/0cf0783a7c031e2a7ea291a18e4883a9-110bca32cf81.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-contact.css\">",
+    "content": "contact.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Contact"
+  },
+  {
+    "route": "estimation",
+    "alias": "estimation",
+    "title": "\n    Estimation et avis de valeur à Neuville-de-Poitou\n  ",
+    "description": "Estimation précise de votre bien à Neuville-de-Poitou pour une vente optimale. Obtenez l'avis d'un professionnel et vendez dans les meilleures conditions.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/0cf0783a7c031e2a7ea291a18e4883a9-110bca32cf81.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-estimation.css\">",
+    "content": "estimation.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Estimation"
+  },
+  {
+    "route": "",
+    "alias": "home",
+    "title": "\n    Agence immobilière à Neuville-de-Poitou\n  ",
+    "description": "Trouvez votre bien idéal à Neuville-de-Poitou grâce à nos agences immobilières. Profitez d'un accompagnement complet pour vos projets immobiliers.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/7d1b674c657f5c599ab91754b0b44db7-ee6985ada45d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_withFlex_1.min-b036db6706a5.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_home_withFlex_1.min-bc1ff52db948.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-home.css\">\n<link rel=\"stylesheet\" href=\"/shared/home.css\">",
+    "content": "home.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Accueil"
+  },
+  {
+    "route": "mentions-legales",
+    "alias": "mentions-legales",
+    "title": "\n    Les mentions légales du site - LAMIRAULT IMMOBILIER\n  ",
+    "description": "Retrouvez sur cette page les mentions légales concernant le site internet de l'entreprise LAMIRAULT IMMOBILIER, agence immobilière située à Neuville-de-Poitou.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/78f0d93f3054a7d987877ee615a15b1b-37b9eef863c2.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-mentions-legales.css\">",
+    "content": "mentions-legales.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Mentions légales"
+  },
+  {
+    "route": "nos-partenaires",
+    "alias": "nos-partenaires",
+    "title": "\n    Partenaires de confiance à Neuville-de-Poitou\n  ",
+    "description": "Nos partenaires à Neuville-de-Poitou vous accompagnent dans vos projets avec des solutions sur mesure. Bénéficiez d'un savoir-faire et d'un suivi rigoureux.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/58037d5259a81bdd4ee0e1ae57a7f0ab-998008f2d2b1.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-nos-partenaires.css\">",
+    "content": "nos-partenaires.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Nos partenaires"
+  },
+  {
+    "route": "notre-equipe",
+    "alias": "notre-equipe",
+    "title": "\n    Notre équipe de professionnels à Neuville-de-Poitou\n  ",
+    "description": "Notre équipe à Neuville-de-Poitou assure vos projets avec précision et efficacité. Profitez d'un accompagnement et d'un savoir-faire reconnu.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/027515b10b8ded8c47b0c07f6eb622e6-0cdf4d4ed5f6.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-notre-equipe.css\">",
+    "content": "notre-equipe.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Notre équipe"
+  },
+  {
+    "route": "nous-rejoindre",
+    "alias": "nous-rejoindre",
+    "title": "\n    Rejoignez notre équipe immobilière à Neuville-de-Poitou\n  ",
+    "description": "Rejoignez notre équipe immobilière à Neuville‑de‑Poitou et participez au développement d’une agence engagée, dynamique et proche de ses clients.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/0cf0783a7c031e2a7ea291a18e4883a9-110bca32cf81.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-nous-rejoindre.css\">",
+    "content": "nous-rejoindre.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Nous rejoindre"
+  },
+  {
+    "route": "page-avis",
+    "alias": "page-avis",
+    "title": "\n    Découvrez les avis sur LAMIRAULT IMMOBILIER\n  ",
+    "description": "Retrouvez sur cette page l'intégralité des avis des clients de l'entreprise LAMIRAULT IMMOBILIER, agences immobilières dans la ville de Neuville-de-Poitou.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8054c5c2abdac8837ad581c72b1280b0-7592ba9abeb9.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-page-avis.css\">",
+    "content": "page-avis.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Avis clients"
+  },
+  {
+    "route": "privacy",
+    "alias": "privacy",
+    "title": "\n    Politique de gestion de cookies - LAMIRAULT IMMOBILIER à Neuville-de-Poitou\n  ",
+    "description": "Retrouvez sur cette page la politique en matière de protection des données personnelles et de cookies du site internet de LAMIRAULT IMMOBILIER à Neuville-de-Poitou.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/e35c7c11ac2029ce6025be1cc811e925-c8e5e3c5beb0.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-privacy.css\">",
+    "content": "privacy.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Informations cookies"
+  },
+  {
+    "route": "vente-immobiliere",
+    "alias": "vente-immobiliere",
+    "title": "\n    Vente immobilière à Neuville-de-Poitou : estimation\n  ",
+    "description": "Vente immobilière à Neuville‑de‑Poitou : bénéficiez d’un large réseau local et d’une estimation fiable pour réussir votre projet immobilier.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/027515b10b8ded8c47b0c07f6eb622e6-0cdf4d4ed5f6.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-vente-immobiliere.css\">",
+    "content": "vente-immobiliere.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Vente immobilière"
+  },
+  {
+    "route": "vie-privee",
+    "alias": "vie-privee",
+    "title": "\n    Protection de la vie privée - LAMIRAULT IMMOBILIER\n  ",
+    "description": "Retrouvez sur cette page la politique de protection de la vie privée de l'entreprise LAMIRAULT IMMOBILIER, agence immobilière à Neuville-de-Poitou.",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/c4c96dbdf0d71dc9051d91895504c43b-9a05bee6cbae.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-vie-privee.css\">",
+    "content": "vie-privee.html",
+    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "breadcrumbLabel": "Vie privée"
+  },
+  {
+    "route": "demande-estimation",
+    "alias": "demande-estimation",
+    "title": "Estimation immobilière gratuite | Lamirault Immobilier",
+    "description": "Demandez une estimation gratuite de votre bien à Poitiers et dans la Vienne.",
+    "head": "<link rel=\"stylesheet\" href=\"/styles.css\">",
+    "content": "demande-estimation.html",
+    "bodyClass": "estimate-page",
+    "script": "/script.js",
+    "breadcrumbLabel": "Demander une estimation",
+    "breadcrumbParents": [
+      {
+        "label": "Estimation",
+        "href": "/estimation/"
+      }
+    ]
+  }
+]

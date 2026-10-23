@@ -1,0 +1,60 @@
+{
+  "id": "26A65P7HNWBG",
+  "reference": "44",
+  "slug": "terrain-moncontour-44",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/moncontour-86330/26A65P7HNWBG",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-22T01:06:30.319Z",
+  "importedAt": "2026-10-22T15:30:03.615Z",
+  "title": "Terrain viabilisé - lot 1",
+  "type": "Terrain",
+  "city": "Moncontour",
+  "postalCode": "86330",
+  "district": "",
+  "price": 13900,
+  "priceLabel": "13 900 €",
+  "priceDetails": [],
+  "feeNote": "Les honoraires sont à la charge du vendeur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 629,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose ce terrain viabilisé, d'une surface de 629 m2, idéalement situé à Moncontour.\n\nVous souhaitez profiter de la quiétude d'un quartier agréable, tout en étant à proximité de toutes les commodités. Venez découvrir la commune de Moncontour, offrant un cadre de vie paisible tout en étant à proximité de toutes les commodités. À côté de la maison de retraite, du parc de loisirs et de la Mairie. Commerces, loisirs, pharmacie/médecin à moins d'1km.\n\nNous vous proposons un large choix de surface à des prix attractifs. Libre de constructeurs. Permis de construire déposable immédiatement.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "629 m² de terrain"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "55592c90-9347-4381-bd1c-3554a289a594",
+      "sourceUrl": "https://mms.seloger.com/5/5/5/9/55592c90-9347-4381-bd1c-3554a289a594.jpg?ci_seal=9175125295ee10b40ee5d73657ad325aed769800",
+      "src": "/assets/biens/terrain-moncontour-44/01.jpg",
+      "alt": "Jardin — terrain à Moncontour"
+    },
+    {
+      "sourceId": "86a22a35-4056-4306-8a34-2847921d0f85",
+      "sourceUrl": "https://mms.seloger.com/8/6/a/2/86a22a35-4056-4306-8a34-2847921d0f85.jpg?ci_seal=6ebc9ed15b4a93349871bce665038dbef1d2b145",
+      "src": "/assets/biens/terrain-moncontour-44/02.jpg",
+      "alt": "Jardin — terrain à Moncontour"
+    },
+    {
+      "sourceId": "4fb163ef-35d0-4550-a9f4-4b73ed53b194",
+      "sourceUrl": "https://mms.seloger.com/4/f/b/1/4fb163ef-35d0-4550-a9f4-4b73ed53b194.jpg?ci_seal=8f8e346e237a67d61c054ede3b57738da317abd5",
+      "src": "/assets/biens/terrain-moncontour-44/03.jpg",
+      "alt": "Jardin — terrain à Moncontour"
+    }
+  ],
+  "contentHash": "68577df1ca279a16f32f595c02887a07433c9db3fde5fb034174fcc7597d054c"
+}

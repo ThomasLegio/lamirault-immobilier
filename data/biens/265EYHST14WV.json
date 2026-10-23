@@ -1,0 +1,70 @@
+{
+  "id": "265EYHST14WV",
+  "reference": "10",
+  "slug": "terrain-constructible-lencloitre-10",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/lencloitre-86140/265EYHST14WV",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-08-13T00:36:43.503Z",
+  "importedAt": "2026-10-22T15:30:03.579Z",
+  "title": "Terrains constructibles à vendre",
+  "type": "Terrain constructible",
+  "city": "Lencloître",
+  "postalCode": "86140",
+  "district": "",
+  "price": 19000,
+  "priceLabel": "19 000 €",
+  "priceDetails": [
+    {
+      "label": "Prix hors honoraires",
+      "value": "15 000 €"
+    },
+    {
+      "label": "Honoraires TTC à la charge de l'acquéreur (26,67% du prix du bien hors honoraires)",
+      "value": "4 000 €"
+    }
+  ],
+  "feeNote": "Les honoraires sont à la charge de l'acquéreur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 1296,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante basée à Poitiers, est fière de vous présenter son tout nouveau programme exclusif à Lencloitre. \n\nVous avez pour projet de faire construire votre future maison individuelle ? Nous vous proposons une sélection de 3 superbes terrains constructibles à vendre, spécialement conçus pour accueillir vos plus beaux projets de vie. Ces parcelles d'exception représentent l’opportunité idéale pour concrétiser la construction de votre future demeure dans un environnement à la fois calme, verdoyant et particulièrement agréable au quotidien. \n\nEn choisissant ce lotissement à taille humaine, vous bénéficierez d’un cadre de vie paisible et privilégié, tout en restant à proximité immédiate de toutes les commodités indispensables au quotidien, notamment les commerces locaux et les structures scolaires de la commune. C'est une localisation géographique à la fois stratégique et recherchée dans le secteur, parfaite pour allier le confort d’une vie de famille sereine à une excellente accessibilité. \n\nDe plus, vous disposez ici de terrains d'ores et déjà prêts à bâtir, vendus non viabilisés. Cette configuration vous offre une totale liberté d'aménagement pour concevoir et implanter votre future habitation, tout en vous permettant de démarrer les démarches de votre projet de construction dans les meilleures conditions possibles. Pour s'adapter parfaitement à toutes vos envies architecturales, à vos besoins d'espace et à la superficie de maison souhaitée, notre liste de lots disponibles propose des surfaces généreuses et variées. \n\nLe Lot numéro 1 offre une belle superficie de 706 m², idéale pour un aménagement optimisé. Le Lot numéro 2 dispose quant à lui d’un espace de 1 137 m², parfait pour les amoureux de grands jardins. Enfin, le Lot numéro 3 affiche une superbe surface de 1 296 m², offrant de multiples possibilités. Ne manquez pas cette opportunité et contactez dès aujourd'hui l'agence LAMIRAULT IMMOBILIER pour concrétiser votre projet.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "1 296 m² de terrain",
+        "Calme"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "c315852c-5bc0-43a1-951e-1727f506beb9",
+      "sourceUrl": "https://mms.seloger.com/c/3/1/5/c315852c-5bc0-43a1-951e-1727f506beb9.jpg?ci_seal=fa96dbc3c3197191d71eea43e8e75ac66d8a7f85",
+      "src": "/assets/biens/terrain-constructible-lencloitre-10/01.jpg",
+      "alt": "Jardin — terrain constructible à Lencloître"
+    },
+    {
+      "sourceId": "887f17b8-e744-4bcf-8261-6ba192a11a9f",
+      "sourceUrl": "https://mms.seloger.com/8/8/7/f/887f17b8-e744-4bcf-8261-6ba192a11a9f.jpg?ci_seal=5d921bd5dfe3255388d85018264b375031572f32",
+      "src": "/assets/biens/terrain-constructible-lencloitre-10/02.jpg",
+      "alt": "Jardin — terrain constructible à Lencloître"
+    },
+    {
+      "sourceId": "4ba02adb-00bd-4eda-a7a9-ce4ee195f2a8",
+      "sourceUrl": "https://mms.seloger.com/4/b/a/0/4ba02adb-00bd-4eda-a7a9-ce4ee195f2a8.jpg?ci_seal=1c2f173305c6dbe6bd505bf5c324824261bd0fc0",
+      "src": "/assets/biens/terrain-constructible-lencloitre-10/03.jpg",
+      "alt": "Jardin — terrain constructible à Lencloître"
+    }
+  ],
+  "contentHash": "b0e8eff0fc03fa69030b6ed9ee031ca108fc304949f4049795e3c7bd0c45e071"
+}

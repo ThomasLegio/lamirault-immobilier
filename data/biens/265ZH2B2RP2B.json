@@ -1,0 +1,167 @@
+{
+  "id": "265ZH2B2RP2B",
+  "reference": "40",
+  "slug": "maison-poitiers-40",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/poitiers-86000/265ZH2B2RP2B",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-22T01:11:23.361Z",
+  "importedAt": "2026-10-22T15:30:03.586Z",
+  "title": "Maison de 67 m² vendue louée",
+  "type": "Maison",
+  "city": "Poitiers",
+  "postalCode": "86000",
+  "district": "Trois Cités",
+  "price": 164900,
+  "priceLabel": "164 900 €",
+  "priceDetails": [],
+  "feeNote": "Les honoraires sont à la charge du vendeur",
+  "livingArea": 67,
+  "overallArea": null,
+  "plotArea": 150,
+  "rooms": 3,
+  "bedrooms": 2,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose cette charmante maison contemporaine de 67 m² habitables,située au calme au sein de la résidence HEMERA à Poitiers.\n\nConstruite en 2010 sous les normes Bâtiment Basse Consommation (BBC), cette maison à étage allie confort thermique moderne, agencement fonctionnel et faibles charges de copropriété (seulement 6 € par mois).\n\nActuellement vendue louée (loyer de 634 € hors charges par mois, bail prenant fin le 20/12/2029), elle constitue une opportunité idéale pour un investissement locatif serein et pérenne.\n\nDès l'entrée au rez-de-chaussée, vous découvrirez une belle pièce de vie lumineuse de plus de 24 m² ouverte sur l'extérieur, complétée par une cuisine indépendante de 4,45 m² et un grand WC séparé de 3,69 m².\n\nAu premier étage, un palier dessert l'espace nuit composé de deux chambres confortables de 12 m² et 12,50 m², ainsi qu'une salle de bains de plus de 5 m².\n\nCôté technique : menuiseries en double vitrage PVC, volets roulants électriques, chauffage individuel et production d'eau chaude assurés par une chaudière au gaz, assainissement collectif (tout-à-l'égout) et raccordement à la fibre optique.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "150 m² de terrain"
+      ]
+    },
+    {
+      "title": "Intérieur",
+      "values": [
+        "Cuisine ouverte, Cuisine intégrée",
+        "1 Salle de bain",
+        "1 WC séparées",
+        "Salon (total 24 m²)",
+        "2 Chambres",
+        "Entrée séparée"
+      ]
+    },
+    {
+      "title": "Extérieur",
+      "values": [
+        "Pas de balcon",
+        "Pas de garage"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [
+      {
+        "type": "yearOfConstruction",
+        "label": "Année de construction",
+        "value": "2011"
+      },
+      {
+        "type": "state",
+        "label": "État",
+        "value": "Entretenu"
+      },
+      {
+        "type": "heatingSystem",
+        "label": "Type de chauffage",
+        "value": "Chauffage individuel"
+      },
+      {
+        "type": "energySource",
+        "label": "Sources d'énergie",
+        "value": "Gaz"
+      }
+    ],
+    "scales": [
+      {
+        "name": "Diagnostic de performance énergétique (DPE)",
+        "rating": "C",
+        "values": [
+          {
+            "value": "113 kWh/m².an",
+            "label": "Consommation (énergie primaire)"
+          },
+          {
+            "value": "103 kWh/m².an",
+            "label": "Énergie finale"
+          },
+          {
+            "value": "21 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      },
+      {
+        "name": "Indice d'émission de gaz à effet de serre (GES)",
+        "rating": "C",
+        "values": [
+          {
+            "value": "21 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Diagnostic réalisé : Après le 1er juillet 2021",
+      "Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 841 et 1137 € par an. Prix moyens des énergies indexés au 21/10/2026 (abonnement compris)."
+    ]
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "6cbc158d-fef5-448d-a1e2-6c25446b7333",
+      "sourceUrl": "https://mms.seloger.com/6/c/b/c/6cbc158d-fef5-448d-a1e2-6c25446b7333.jpg?ci_seal=362182d4b069677886124d2e6c1b7c385bde0b0b",
+      "src": "/assets/biens/maison-poitiers-40/01.jpg",
+      "alt": "Terrasse — maison à Poitiers"
+    },
+    {
+      "sourceId": "1afcf14b-744b-4d7a-bcf9-394ebc2f9d83",
+      "sourceUrl": "https://mms.seloger.com/1/a/f/c/1afcf14b-744b-4d7a-bcf9-394ebc2f9d83.jpg?ci_seal=49e878fe404990637aa99b0aca908d3cba3174bf",
+      "src": "/assets/biens/maison-poitiers-40/02.jpg",
+      "alt": "Salon — maison à Poitiers"
+    },
+    {
+      "sourceId": "e934f35a-43ef-4041-8474-23838282a3ab",
+      "sourceUrl": "https://mms.seloger.com/e/9/3/4/e934f35a-43ef-4041-8474-23838282a3ab.jpg?ci_seal=7ca27b3ccfca8018cfbc0dcf173f21785da4d474",
+      "src": "/assets/biens/maison-poitiers-40/03.jpg",
+      "alt": "Salon — maison à Poitiers"
+    },
+    {
+      "sourceId": "5f6dfb2f-73fc-44f4-86f4-f924f7f70bba",
+      "sourceUrl": "https://mms.seloger.com/5/f/6/d/5f6dfb2f-73fc-44f4-86f4-f924f7f70bba.jpg?ci_seal=3e9898faed5882cb2e4528c4650a8d0d55e981a6",
+      "src": "/assets/biens/maison-poitiers-40/04.jpg",
+      "alt": "Salon — maison à Poitiers"
+    },
+    {
+      "sourceId": "8b46104b-4558-4d0d-9145-29ffdedf1272",
+      "sourceUrl": "https://mms.seloger.com/8/b/4/6/8b46104b-4558-4d0d-9145-29ffdedf1272.jpg?ci_seal=b7cc3ee749cfecb1875adade85ea0b867844f02b",
+      "src": "/assets/biens/maison-poitiers-40/05.jpg",
+      "alt": "Cuisine — maison à Poitiers"
+    },
+    {
+      "sourceId": "4d2c25b4-945f-49f9-8461-cd9ff3a0a4f5",
+      "sourceUrl": "https://mms.seloger.com/4/d/2/c/4d2c25b4-945f-49f9-8461-cd9ff3a0a4f5.jpg?ci_seal=783c102cabd6e9a0fb8249c3a14ecef954f0f3b4",
+      "src": "/assets/biens/maison-poitiers-40/06.jpg",
+      "alt": "Chambre — maison à Poitiers"
+    },
+    {
+      "sourceId": "1bea110a-050e-400f-9216-6c8811149bb6",
+      "sourceUrl": "https://mms.seloger.com/1/b/e/a/1bea110a-050e-400f-9216-6c8811149bb6.jpg?ci_seal=301978e615f4a6b12df8b649b16a920972ed8251",
+      "src": "/assets/biens/maison-poitiers-40/07.jpg",
+      "alt": "Chambre — maison à Poitiers"
+    },
+    {
+      "sourceId": "f390776e-78ba-4fea-8d96-953b0a7a4fff",
+      "sourceUrl": "https://mms.seloger.com/f/3/9/0/f390776e-78ba-4fea-8d96-953b0a7a4fff.jpg?ci_seal=e0e319d54de50ca073c1bd66d50d0ccc0cfadcfb",
+      "src": "/assets/biens/maison-poitiers-40/08.jpg",
+      "alt": "Cuisine — maison à Poitiers"
+    },
+    {
+      "sourceId": "c0199b0e-722d-43f6-8d93-d72be6d382b8",
+      "sourceUrl": "https://mms.seloger.com/c/0/1/9/c0199b0e-722d-43f6-8d93-d72be6d382b8.jpg?ci_seal=2f5ab2cf38e3ea7647d6b3c0b8a477024823c489",
+      "src": "/assets/biens/maison-poitiers-40/09.jpg",
+      "alt": "Jardin — maison à Poitiers"
+    }
+  ],
+  "contentHash": "185810fbb31a84c2649fe983f61a78c183cf13039415b06811784660fa58fb00"
+}

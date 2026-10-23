@@ -1,0 +1,66 @@
+{
+  "id": "26EW5D5UDTBU",
+  "reference": "41",
+  "slug": "terrain-coussay-les-bois-41",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/coussay-les-bois-86270/26EW5D5UDTBU",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-17T01:06:25.893Z",
+  "importedAt": "2026-10-22T15:30:03.626Z",
+  "title": "Terrain viabilisé - lot 8",
+  "type": "Terrain",
+  "city": "Coussay-les-Bois",
+  "postalCode": "86270",
+  "district": "",
+  "price": 19900,
+  "priceLabel": "19 900 €",
+  "priceDetails": [],
+  "feeNote": "Les honoraires sont à la charge du vendeur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 640,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose ce terrain viabilisé, d'une surface de 640 m2, idéalement situé à Coussay-les-Bois.\n\nVous souhaitez profiter de la quiétude d'un quartier agréable, tout en étant à proximité de toutes les commodités. Venez découvrir la commune de Coussay-les-Bois, offrant un cadre de vie paisible tout en étant à proximité de toutes les commodités. Vous êtes à quelques minutes de La Roche-Posay et à 15 km de Châtellerault.\n\nNous vous proposons un large choix de surface à des prix attractifs. Libre de constructeurs. Permis de construire déposable immédiatement.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "640 m² de terrain"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "047f15c6-55de-4392-a5ab-cecf804bf29e",
+      "sourceUrl": "https://mms.seloger.com/0/4/7/f/047f15c6-55de-4392-a5ab-cecf804bf29e.jpg?ci_seal=937b1a64b76e5bbe74e2df131985c93b9e840aeb",
+      "src": "/assets/biens/terrain-coussay-les-bois-41/01.jpg",
+      "alt": "Jardin — terrain à Coussay-les-Bois"
+    },
+    {
+      "sourceId": "a19fe77b-37f9-4164-9493-3a0e71b077eb",
+      "sourceUrl": "https://mms.seloger.com/a/1/9/f/a19fe77b-37f9-4164-9493-3a0e71b077eb.jpg?ci_seal=7feace9f42ab33b1ece3fa5d8260348393d231b0",
+      "src": "/assets/biens/terrain-coussay-les-bois-41/02.jpg",
+      "alt": "Façade de la maison — terrain à Coussay-les-Bois"
+    },
+    {
+      "sourceId": "ac7e726d-cec4-4c6d-99d2-89306849049e",
+      "sourceUrl": "https://mms.seloger.com/a/c/7/e/ac7e726d-cec4-4c6d-99d2-89306849049e.jpg?ci_seal=bdab1fa01bd7710118f0b395c9994e578c23906f",
+      "src": "/assets/biens/terrain-coussay-les-bois-41/03.jpg",
+      "alt": "Façade de la maison — terrain à Coussay-les-Bois"
+    },
+    {
+      "sourceId": "dd5522e8-d3bf-4a3b-9bdb-3d822c19e6c4",
+      "sourceUrl": "https://mms.seloger.com/d/d/5/5/dd5522e8-d3bf-4a3b-9bdb-3d822c19e6c4.jpg?ci_seal=35c511a7440b89b29c10248563157a0c0c8a0c54",
+      "src": "/assets/biens/terrain-coussay-les-bois-41/04.jpg",
+      "alt": "Jardin — terrain à Coussay-les-Bois"
+    }
+  ],
+  "contentHash": "cfa220ebdea957f93a90b8d2354814e18e08536c5b464d5bbb51e692907141f2"
+}

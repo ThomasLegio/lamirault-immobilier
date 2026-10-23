@@ -1,0 +1,193 @@
+{
+  "id": "26Q4T287WBG1",
+  "reference": "30",
+  "slug": "maison-de-plain-pied-montamise-30",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/montamise-86360/26Q4T287WBG1",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-22T01:11:21.428Z",
+  "importedAt": "2026-10-22T15:30:03.657Z",
+  "title": "Maison 159 m² + piscine",
+  "type": "Maison de plain-pied",
+  "city": "Montamisé",
+  "postalCode": "86360",
+  "district": "",
+  "price": 449000,
+  "priceLabel": "449 000 €",
+  "priceDetails": [
+    {
+      "label": "Prix hors honoraires",
+      "value": "430 000 €"
+    },
+    {
+      "label": "Honoraires TTC à la charge de l'acquéreur (4,42% du prix du bien hors honoraires)",
+      "value": "19 000 €"
+    }
+  ],
+  "feeNote": "Les honoraires sont à la charge de l'acquéreur",
+  "livingArea": 159,
+  "overallArea": null,
+  "plotArea": 572,
+  "rooms": 4,
+  "bedrooms": 3,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose cette charmante maison construite en 2023, de plain-pied, située sur la commune recherchée de Montamisé, édifiée sur une belle parcelle close de 572 m².\n\nCette maison bénéficie d'une surface habitable d'environ 159 m², offrant des volumes généreux et un agencement pensé pour un confort de vie optimal au quotidien, idéal pour accueillir une famille.\n\nDès l'entrée, vous serez séduit par une vaste pièce de vie baignée de lumière naturelle de près de 77 m², créant une atmosphère chaleureuse et conviviale pour vos moments de partage. Dans la continuité, découvrez une grande cuisine ouverte parfaitement complétée par un cellier attenant très pratique pour le rangement.\n\nL'espace nuit accueille deux chambres confortables et lumineuses disposant chacune de leur propre salle d'eau, ainsi qu'une suite parentale de 13,74 m² agrémentée d'un grand dressing et d'une salle d'eau (ciel de pluie) avec WC attenante de 23 m². À l'extérieur, vous profiterez d'un environnement calme, d'une agréable terrasse en travertin, abritée, idéale pour vos déjeuners et soirées d'été, ainsi que d'une piscine creusée et d'un cabanon de jardin.\n\nCôté prestations techniques, la maison dispose de menuiseries aluminium en double vitrage avec volets électriques, d'un chauffage individuel par pompe à chaleur air/eau complété par une cheminée bioéthanol, d'une clim, de l'assainissement collectif et d'un raccordement à la fibre optique.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "Exposition: ouest",
+        "572 m² de terrain"
+      ]
+    },
+    {
+      "title": "Intérieur",
+      "values": [
+        "Cuisine ouverte, Cuisine intégrée",
+        "3 Salles de douches",
+        "2 WCs séparées",
+        "Salon (total 76 m²)",
+        "3 Chambres",
+        "Cave",
+        "Entrée séparée"
+      ]
+    },
+    {
+      "title": "Extérieur",
+      "values": [
+        "Pas de balcon",
+        "Terrasse (Total 20 m²)",
+        "Jardin",
+        "Garage, 3 Parkings, Box de stationnement"
+      ]
+    },
+    {
+      "title": "Équipements",
+      "values": [
+        "Piscine"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [
+      {
+        "type": "yearOfConstruction",
+        "label": "Année de construction",
+        "value": "2023"
+      },
+      {
+        "type": "state",
+        "label": "État",
+        "value": "Comme neuf"
+      },
+      {
+        "type": "heatingSystem",
+        "label": "Type de chauffage",
+        "value": "Chauffage individuel"
+      }
+    ],
+    "scales": [
+      {
+        "name": "Diagnostic de performance énergétique (DPE)",
+        "rating": "A",
+        "values": [
+          {
+            "value": "33 kWh/m².an",
+            "label": "Consommation (énergie primaire)"
+          },
+          {
+            "value": "26 kWh/m².an",
+            "label": "Énergie finale"
+          },
+          {
+            "value": "2 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      },
+      {
+        "name": "Indice d'émission de gaz à effet de serre (GES)",
+        "rating": "A",
+        "values": [
+          {
+            "value": "2 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Diagnostic réalisé : Avant le 1er juillet 2021",
+      "Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1040 et 1450 € par an. Prix moyens des énergies indexés au 21/10/2026 (abonnement compris)."
+    ]
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "88cc8147-a063-4767-8000-35e5d27b9ec0",
+      "sourceUrl": "https://mms.seloger.com/8/8/c/c/88cc8147-a063-4767-8000-35e5d27b9ec0.jpg?ci_seal=3d937f53bfbc48e6ddc48f53adabc4fadae03020",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/01.jpg",
+      "alt": "Photo 1 — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "df8b093c-93c4-4eb5-ae70-97d11b2476de",
+      "sourceUrl": "https://mms.seloger.com/d/f/8/b/df8b093c-93c4-4eb5-ae70-97d11b2476de.jpg?ci_seal=e3578eba3fcef55ddb88d33aed6be9997acde2a0",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/02.jpg",
+      "alt": "Salon — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "1b0b0a02-4776-40a8-99cd-af99f42f93ed",
+      "sourceUrl": "https://mms.seloger.com/1/b/0/b/1b0b0a02-4776-40a8-99cd-af99f42f93ed.jpg?ci_seal=ab878ccb86359dcdab2c520a4bc0d106d17549bc",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/03.jpg",
+      "alt": "Salon — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "8b54675c-e41c-43d9-996a-01715eaaab1d",
+      "sourceUrl": "https://mms.seloger.com/8/b/5/4/8b54675c-e41c-43d9-996a-01715eaaab1d.jpg?ci_seal=68e926b7ae4cb4f51244d28f2fd2b8e8b706d0dd",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/04.jpg",
+      "alt": "Cuisine — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "6483bd07-6f70-4502-8f9b-7e76645969bf",
+      "sourceUrl": "https://mms.seloger.com/6/4/8/3/6483bd07-6f70-4502-8f9b-7e76645969bf.jpg?ci_seal=bbd6a84b170c855ea1c34e1726c33eabedd5e75f",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/05.jpg",
+      "alt": "Chambre — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "9b7d1b05-c3c2-4ccd-9546-3b6cb4fd6b85",
+      "sourceUrl": "https://mms.seloger.com/9/b/7/d/9b7d1b05-c3c2-4ccd-9546-3b6cb4fd6b85.jpg?ci_seal=3cbda9bbe980290896b86c6a3c2b3491ff7b8506",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/06.jpg",
+      "alt": "Placard — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "515eeb8f-8f7d-4a76-adc9-7639eeeb4c1c",
+      "sourceUrl": "https://mms.seloger.com/5/1/5/e/515eeb8f-8f7d-4a76-adc9-7639eeeb4c1c.jpg?ci_seal=aca4e4bdae318397c886afc5f836178cbfc3471b",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/07.jpg",
+      "alt": "Salle de bain — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "16ea0a93-a092-481e-959f-7b4a668fbd24",
+      "sourceUrl": "https://mms.seloger.com/1/6/e/a/16ea0a93-a092-481e-959f-7b4a668fbd24.jpg?ci_seal=99fa5fcb715699ef6598a502e088907ed1e9f87f",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/08.jpg",
+      "alt": "Chambre — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "81a52afb-a432-46d4-aeb5-5d5f9703eba8",
+      "sourceUrl": "https://mms.seloger.com/8/1/a/5/81a52afb-a432-46d4-aeb5-5d5f9703eba8.jpg?ci_seal=431ded3c210c77c1051d83eb4bac578e84ef8515",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/09.jpg",
+      "alt": "Salle de bain — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "e937c6e4-7bf9-4d7a-ab23-2258c2f32f10",
+      "sourceUrl": "https://mms.seloger.com/e/9/3/7/e937c6e4-7bf9-4d7a-ab23-2258c2f32f10.jpg?ci_seal=de4c0abd9f03d22e6c3dcd2bbb67d86b08a8cc2a",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/10.jpg",
+      "alt": "Balcon — maison de plain-pied à Montamisé"
+    },
+    {
+      "sourceId": "aa91da8e-d513-4517-8e89-91f5340b1cb1",
+      "sourceUrl": "https://mms.seloger.com/a/a/9/1/aa91da8e-d513-4517-8e89-91f5340b1cb1.jpg?ci_seal=d122e753532ded485d043c5e98be839506e3acd1",
+      "src": "/assets/biens/maison-de-plain-pied-montamise-30/11.jpg",
+      "alt": "Photo 11 — maison de plain-pied à Montamisé"
+    }
+  ],
+  "contentHash": "b541b3c3fd528d5d903af3ed4f84514ef8706a721c6ad65f615af31961986e65"
+}

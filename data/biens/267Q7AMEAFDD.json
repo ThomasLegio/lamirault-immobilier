@@ -1,0 +1,202 @@
+{
+  "id": "267Q7AMEAFDD",
+  "reference": "3",
+  "slug": "maison-neuville-de-poitou-3",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/neuville-de-poitou-86170/267Q7AMEAFDD",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-22T01:16:31.864Z",
+  "importedAt": "2026-10-22T15:30:03.604Z",
+  "title": "Le charme de l’ancien, le confort d’aujourd’hui.",
+  "type": "Maison",
+  "city": "Neuville-de-Poitou",
+  "postalCode": "86170",
+  "district": "",
+  "price": 268000,
+  "priceLabel": "268 000 €",
+  "priceDetails": [
+    {
+      "label": "Prix hors honoraires",
+      "value": "260 000 €"
+    },
+    {
+      "label": "Honoraires TTC à la charge de l'acquéreur (3,08% du prix du bien hors honoraires)",
+      "value": "8 000 €"
+    }
+  ],
+  "feeNote": "Les honoraires sont à la charge de l'acquéreur",
+  "livingArea": 140,
+  "overallArea": null,
+  "plotArea": 475,
+  "rooms": 4,
+  "bedrooms": 3,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose à seulement 300 mètres de la place de la Mairie, cette superbe demeure d’environ 140 m², nichée sur une parcelle de 475 m² parfaitement entretenue.\n\nCette maison à étage est le compromis idéal pour ceux qui recherchent le cachet de l’authentique allié à une rénovation moderne et soignée.\n\nDès l’entrée, vous serez séduit par un salon spacieux bénéficiant d’une belle hauteur sous plafond, apportant volume et prestance à la pièce de vie. Dans sa continuité, une cuisine aménagée et équipée s’ouvre sur une salle à manger chaleureuse, créant un espace de réception convivial. Un cellier fonctionnel mène directement au garage de 17 m² avec porte motorisée. Un premier WC complète ce niveau.\n\nÀ l’étage, l’espace nuit se compose d’une première chambre de 26 m², puis de deux autres chambres confortables de 11 m² et 12 m². Une salle de bains complète l’ensemble avec douche et baignoire, ainsi qu’un second WC indépendant.\n\nLe jardin, parfaitement entretenu, dispose d’une dépendance idéale pour le stockage ou la création d’un atelier. Une cave vient parfaire les prestations de ce bien et offre un espace supplémentaire pour le rangement ou la conservation.\n\nCôté technique : double vitrage PVC, fibre optique installée, tout-à-l’égout et chauffage au fioul alimentant un plancher chauffant au rez-de-chaussée. Aucun gros œuvre à prévoir : cette maison est prête à vous accueillir, vous n’avez plus qu’à poser vos valises !\n\nUn bien rare à proximité immédiate du centre-ville, alliant charme, volumes, confort et fonctionnalité.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "Exposition: ouest",
+        "475 m² de terrain"
+      ]
+    },
+    {
+      "title": "Accessibilité",
+      "values": [
+        "Non accessible aux personnes à mobilité réduite"
+      ]
+    },
+    {
+      "title": "Intérieur",
+      "values": [
+        "Cuisine ouverte, Cuisine intégrée",
+        "1 Salle de bain",
+        "1 WC séparées",
+        "Salon (total 41 m²)",
+        "3 Chambres",
+        "Cave",
+        "Entrée séparée"
+      ]
+    },
+    {
+      "title": "Extérieur",
+      "values": [
+        "Pas de balcon",
+        "Terrasse (Total 30 m²)",
+        "Jardin",
+        "Garage, Box de stationnement"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [
+      {
+        "type": "yearOfConstruction",
+        "label": "Année de construction",
+        "value": "1920"
+      },
+      {
+        "type": "state",
+        "label": "État",
+        "value": "Entièrement rénové",
+        "enrichment": "ai"
+      },
+      {
+        "type": "heatingSystem",
+        "label": "Type de chauffage",
+        "value": "Chauffage individuel: Chauffage au sol",
+        "enrichment": "ai"
+      },
+      {
+        "type": "energySource",
+        "label": "Sources d'énergie",
+        "value": "Pétrole"
+      }
+    ],
+    "scales": [
+      {
+        "name": "Diagnostic de performance énergétique (DPE)",
+        "rating": "D",
+        "values": [
+          {
+            "value": "115 kWh/m².an",
+            "label": "Consommation (énergie primaire)"
+          },
+          {
+            "value": "33 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      },
+      {
+        "name": "Indice d'émission de gaz à effet de serre (GES)",
+        "rating": "D",
+        "values": [
+          {
+            "value": "33 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Diagnostic réalisé : Après le 1er juillet 2021",
+      "Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 2081 et 2815 € par an. Prix moyens des énergies indexés au 21/10/2026 (abonnement compris)."
+    ]
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "f925cedc-0884-4a56-ba64-2d7e3fdb0b51",
+      "sourceUrl": "https://mms.seloger.com/f/9/2/5/f925cedc-0884-4a56-ba64-2d7e3fdb0b51.jpg?ci_seal=99f65723df4b3386aa7d574022919c2486d0c194",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/01.jpg",
+      "alt": "Façade de la maison — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "849863f5-fe4e-40c8-91cc-9f2ffa896f3c",
+      "sourceUrl": "https://mms.seloger.com/8/4/9/8/849863f5-fe4e-40c8-91cc-9f2ffa896f3c.jpg?ci_seal=e1e0d32639738a3f0be7c5f93508b350499e7a92",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/02.jpg",
+      "alt": "Terrasse — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "90d79279-deda-457c-83d2-963394e16526",
+      "sourceUrl": "https://mms.seloger.com/9/0/d/7/90d79279-deda-457c-83d2-963394e16526.jpg?ci_seal=e1681e385338ef1bd10e651763a1fbd3e64abd89",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/03.jpg",
+      "alt": "Salon — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "75830859-2dba-434d-ac53-2c48138a4cbd",
+      "sourceUrl": "https://mms.seloger.com/7/5/8/3/75830859-2dba-434d-ac53-2c48138a4cbd.jpg?ci_seal=18d2bd8f1339be0324179189d8d069cafb44e96a",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/04.jpg",
+      "alt": "Salon — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "e2344cfd-122b-4e19-8203-a36a7c6b7a73",
+      "sourceUrl": "https://mms.seloger.com/e/2/3/4/e2344cfd-122b-4e19-8203-a36a7c6b7a73.jpg?ci_seal=09b8bed39a2573607df9509ac576484e1023b931",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/05.jpg",
+      "alt": "Cuisine — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "2ded118d-286e-4896-a789-2add007ddb1a",
+      "sourceUrl": "https://mms.seloger.com/2/d/e/d/2ded118d-286e-4896-a789-2add007ddb1a.jpg?ci_seal=4581b08fdabcfdb5c60a0aeb1abf024e1660d8e1",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/06.jpg",
+      "alt": "Chambre — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "c59a39f8-9da5-4512-b69b-1cebf9619239",
+      "sourceUrl": "https://mms.seloger.com/c/5/9/a/c59a39f8-9da5-4512-b69b-1cebf9619239.jpg?ci_seal=fd907306d837240fc74279a0d69bd7485788d65c",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/07.jpg",
+      "alt": "Chambre — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "4c04d6ce-cd06-4f02-b94b-f3068cb71129",
+      "sourceUrl": "https://mms.seloger.com/4/c/0/4/4c04d6ce-cd06-4f02-b94b-f3068cb71129.jpg?ci_seal=fe5108096785ca034ee4d5dcdc3fcc1ba96fbfde",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/08.jpg",
+      "alt": "Chambre — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "1fd479cd-afa5-4ecd-aebf-567d7d4f4cd0",
+      "sourceUrl": "https://mms.seloger.com/1/f/d/4/1fd479cd-afa5-4ecd-aebf-567d7d4f4cd0.jpg?ci_seal=300e54f7b9ca7bd8bb573fc17761d02f042873cb",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/09.jpg",
+      "alt": "Chambre — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "0c8c28de-a8be-4d45-839c-6e468c83a2ac",
+      "sourceUrl": "https://mms.seloger.com/0/c/8/c/0c8c28de-a8be-4d45-839c-6e468c83a2ac.jpg?ci_seal=9b773592749c018042ab406a45a8f029a9f73645",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/10.jpg",
+      "alt": "Salle de bain — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "6a263c26-b3b3-45a8-b086-e2718cf6c9b3",
+      "sourceUrl": "https://mms.seloger.com/6/a/2/6/6a263c26-b3b3-45a8-b086-e2718cf6c9b3.jpg?ci_seal=d183ebdcef9d119137e43b1751c2d68e6ee6656d",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/11.jpg",
+      "alt": "Photo 11 — maison à Neuville-de-Poitou"
+    },
+    {
+      "sourceId": "facfeab9-6b8e-4225-b37c-ac877c8ebdf4",
+      "sourceUrl": "https://mms.seloger.com/f/a/c/f/facfeab9-6b8e-4225-b37c-ac877c8ebdf4.jpg?ci_seal=17307453bec9ba62d7e5edb790df4624aaa13d02",
+      "src": "/assets/biens/maison-neuville-de-poitou-3/12.jpg",
+      "alt": "Jardin — maison à Neuville-de-Poitou"
+    }
+  ],
+  "contentHash": "5696e09067d428e9f517e360828aecfb2d6ea9abcac4e8543d8b0f5d2952af43"
+}

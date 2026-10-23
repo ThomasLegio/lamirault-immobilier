@@ -1,0 +1,54 @@
+{
+  "id": "26Q6D5EYYBTC",
+  "reference": "42",
+  "slug": "terrain-pleumartin-42",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/pleumartin-86450/26Q6D5EYYBTC",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-17T01:11:28.304Z",
+  "importedAt": "2026-10-22T15:30:03.663Z",
+  "title": "Terrain viabilisé - lot 4",
+  "type": "Terrain",
+  "city": "Pleumartin",
+  "postalCode": "86450",
+  "district": "",
+  "price": 14900,
+  "priceLabel": "14 900 €",
+  "priceDetails": [],
+  "feeNote": "Les honoraires sont à la charge du vendeur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 589,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose ce terrain viabilisé, d'une surface de 589 m2, idéalement situé à Pleumartin.\n\nVous souhaitez profiter de la quiétude d'un quartier agréable, tout en étant à proximité de toutes les commodités. Venez découvrir la commune de Pleumartin, offrant un cadre de vie paisible tout en étant à proximité de toutes les commodités. Vous êtes à 6 km de La Roche-Posay et à quelques minutes de Châtellerault.\n\nNous vous proposons un large choix de surface à des prix attractifs. Libre de constructeurs. Permis de construire déposable immédiatement.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "589 m² de terrain"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "a172f0fc-5b8f-4126-8af5-a948799b8eaf",
+      "sourceUrl": "https://mms.seloger.com/a/1/7/2/a172f0fc-5b8f-4126-8af5-a948799b8eaf.jpg?ci_seal=19080717756ecfa45a4aa96acb2eb62e298a6043",
+      "src": "/assets/biens/terrain-pleumartin-42/01.jpg",
+      "alt": "Façade de la maison — terrain à Pleumartin"
+    },
+    {
+      "sourceId": "4c1c42a3-4c85-4cbd-b1d5-01a3c69368d4",
+      "sourceUrl": "https://mms.seloger.com/4/c/1/c/4c1c42a3-4c85-4cbd-b1d5-01a3c69368d4.jpg?ci_seal=4e0a8dfb58a3646237f31ffd06e7d434ed9e6a8a",
+      "src": "/assets/biens/terrain-pleumartin-42/02.jpg",
+      "alt": "Jardin — terrain à Pleumartin"
+    }
+  ],
+  "contentHash": "4cc8ed7aeebf2a74baf99c3d7feed7c38362091ace9c5771472a8ccc0b431c09"
+}

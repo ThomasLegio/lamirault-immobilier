@@ -1,0 +1,69 @@
+{
+  "id": "26QRD3HX51GR",
+  "reference": "37",
+  "slug": "terrain-iteuil-37",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/iteuil-86240/26QRD3HX51GR",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-09T00:56:22.277Z",
+  "importedAt": "2026-10-22T15:30:03.668Z",
+  "title": "Terrain viabilisé - lot C",
+  "type": "Terrain",
+  "city": "Iteuil",
+  "postalCode": "86240",
+  "district": "",
+  "price": 44900,
+  "priceLabel": "44 900 €",
+  "priceDetails": [
+    {
+      "label": "Prix hors honoraires",
+      "value": "41 310 €"
+    },
+    {
+      "label": "Honoraires TTC à la charge de l'acquéreur (8,69% du prix du bien hors honoraires)",
+      "value": "3 590 €"
+    }
+  ],
+  "feeNote": "Les honoraires sont à la charge de l'acquéreur et du vendeur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 579,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose ce terrain viabilisé, d'une surface de 579 m2, idéalement situé à Iteuil.\n\nVous souhaitez profiter de la quiétude d'un quartier agréable, tout en étant à proximité de toutes les commodités. Venez découvrir la commune de Iteuil, offrant un cadre de vie paisible tout en étant à proximité de toutes les commodités. Vous êtes à quelques minutes de Poitiers, avec un accès facile aux commerces, restaurants, écoles et transports.\n\nNous vous proposons un large choix de surface à des prix attractifs. Libre de constructeurs. Permis de construire déposable immédiatement.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "579 m² de terrain"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "942970bb-9a93-4814-b677-bbe26a56756a",
+      "sourceUrl": "https://mms.seloger.com/9/4/2/9/942970bb-9a93-4814-b677-bbe26a56756a.jpg?ci_seal=4514d91a28d4a8f215052dc2a9c4e43d39c24765",
+      "src": "/assets/biens/terrain-iteuil-37/01.jpg",
+      "alt": "Jardin — terrain à Iteuil"
+    },
+    {
+      "sourceId": "aef2d349-47ae-4326-8475-359657a067ec",
+      "sourceUrl": "https://mms.seloger.com/a/e/f/2/aef2d349-47ae-4326-8475-359657a067ec.jpg?ci_seal=28636d2c1fe4dda8c64012eed9230854570d11b5",
+      "src": "/assets/biens/terrain-iteuil-37/02.jpg",
+      "alt": "Jardin — terrain à Iteuil"
+    },
+    {
+      "sourceId": "ec94e4b7-5ae8-47bd-a37e-577315bda877",
+      "sourceUrl": "https://mms.seloger.com/e/c/9/4/ec94e4b7-5ae8-47bd-a37e-577315bda877.jpg?ci_seal=131a260d495a2405d64fa6a1577e4328dc89350f",
+      "src": "/assets/biens/terrain-iteuil-37/03.jpg",
+      "alt": "Jardin — terrain à Iteuil"
+    }
+  ],
+  "contentHash": "c0af687886661d8dc687d4805c402b68f8626e2e53928cc9a93bc8de306b71a9"
+}

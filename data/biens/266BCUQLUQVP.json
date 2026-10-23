@@ -1,0 +1,94 @@
+{
+  "id": "266BCUQLUQVP",
+  "reference": "14",
+  "slug": "terrain-montamise-14",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/montamise-86360/266BCUQLUQVP",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-22T12:01:14.7Z",
+  "importedAt": "2026-10-22T15:30:03.594Z",
+  "title": "Terrain constructible de 1 494m²",
+  "type": "Terrain",
+  "city": "Montamisé",
+  "postalCode": "86360",
+  "district": "",
+  "price": 79900,
+  "priceLabel": "79 900 €",
+  "priceDetails": [
+    {
+      "label": "Prix hors honoraires",
+      "value": "75 000 €"
+    },
+    {
+      "label": "Honoraires TTC à la charge de l'acquéreur (6,53% du prix du bien hors honoraires)",
+      "value": "4 900 €"
+    }
+  ],
+  "feeNote": "Les honoraires sont à la charge de l'acquéreur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 1494,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose à la vente deux magnifiques terrains constructibles, vendus non viabilisés, situés sur la commune très recherchée de Montamisé, dans le secteur calme et verdoyant de Tronc. \n\nUne opportunité rare pour concrétiser votre projet de construction dans un environnement privilégié, alliant tranquillité, qualité de vie et proximité des commodités.\n\nImplantées dans un cadre résidentiel apprécié pour son calme, ces parcelles offrent un environnement idéal pour accueillir une maison familiale, tout en restant à quelques minutes des commerces, des établissements scolaires, des services et des principaux axes reliant rapidement Poitiers. Vous profiterez d'un cadre de vie agréable, où nature et praticité se conjuguent au quotidien.\n\nLe premier terrain développe une belle superficie de 1 494 m². Il bénéficie d'un chemin d'accès privatif d'environ 60 mètres linéaires, garantissant calme et intimité, ainsi que d'une façade d'environ 37 mètres, offrant de nombreuses possibilités d'implantation pour votre future construction. Cette configuration permet d'imaginer différents projets architecturaux, qu'il s'agisse d'une maison de plain-pied ou à étage, avec de vastes espaces extérieurs, une terrasse, une piscine ou encore un jardin paysager.\n\nLe second terrain, proposé au même prix, constitue une alternative tout aussi attractive. Avec une superficie de 1 285 m², il offre lui aussi un beau potentiel pour réaliser un projet sur mesure, adapté à vos besoins et à votre mode de vie. Sa configuration permet d'envisager un aménagement harmonieux, dans un environnement préservé où chacun pourra profiter d'un véritable confort de vie.\n\nCes deux parcelles sont vendues non viabilisées, laissant aux futurs acquéreurs la liberté de concevoir leur projet selon leurs attentes. Les réseaux se situent à proximité et le raccordement au réseau collectif d'assainissement (tout-à-l'égout) est possible, facilitant ainsi les démarches de viabilisation.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "1 494 m² de terrain",
+        "Non accessible aux personnes à mobilité réduite"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "43fbcb3b-62a3-4bb1-834b-1bc267173bc4",
+      "sourceUrl": "https://mms.seloger.com/4/3/f/b/43fbcb3b-62a3-4bb1-834b-1bc267173bc4.jpg?ci_seal=7f7281b3fc92d29da05112be70f409274246bd29",
+      "src": "/assets/biens/terrain-montamise-14/01.jpg",
+      "alt": "Jardin — terrain à Montamisé"
+    },
+    {
+      "sourceId": "16b63e3b-fd5e-4b5a-a922-7a674f9565bb",
+      "sourceUrl": "https://mms.seloger.com/1/6/b/6/16b63e3b-fd5e-4b5a-a922-7a674f9565bb.jpg?ci_seal=75c3f5eb449b9d658faf6241fbe71d555c551528",
+      "src": "/assets/biens/terrain-montamise-14/02.jpg",
+      "alt": "Jardin — terrain à Montamisé"
+    },
+    {
+      "sourceId": "8c6128b4-0f55-4029-971a-924478c3337e",
+      "sourceUrl": "https://mms.seloger.com/8/c/6/1/8c6128b4-0f55-4029-971a-924478c3337e.jpg?ci_seal=25e0c81fe6054be3630ad88b5e318ed6f4db098c",
+      "src": "/assets/biens/terrain-montamise-14/03.jpg",
+      "alt": "Jardin — terrain à Montamisé"
+    },
+    {
+      "sourceId": "73b673cd-5616-4ce7-99d9-45f4e1d641dc",
+      "sourceUrl": "https://mms.seloger.com/7/3/b/6/73b673cd-5616-4ce7-99d9-45f4e1d641dc.jpg?ci_seal=ed07c59854d686a74e0547016cb9554d5423243e",
+      "src": "/assets/biens/terrain-montamise-14/04.jpg",
+      "alt": "Jardin — terrain à Montamisé"
+    },
+    {
+      "sourceId": "f85f1ce8-f7b3-48fd-b3ed-a15e64b98547",
+      "sourceUrl": "https://mms.seloger.com/f/8/5/f/f85f1ce8-f7b3-48fd-b3ed-a15e64b98547.jpg?ci_seal=3fdc309e7eae03cacc8e88bec8ab99774abc9e76",
+      "src": "/assets/biens/terrain-montamise-14/05.jpg",
+      "alt": "Jardin — terrain à Montamisé"
+    },
+    {
+      "sourceId": "88c7c82e-0382-4813-abb1-2862fc7a3e4e",
+      "sourceUrl": "https://mms.seloger.com/8/8/c/7/88c7c82e-0382-4813-abb1-2862fc7a3e4e.jpg?ci_seal=1618ddbc072033d3dc75191d4f4f3e5a86200719",
+      "src": "/assets/biens/terrain-montamise-14/06.jpg",
+      "alt": "Jardin — terrain à Montamisé"
+    },
+    {
+      "sourceId": "9a373f81-6609-4a62-a530-59ae62056dea",
+      "sourceUrl": "https://mms.seloger.com/9/a/3/7/9a373f81-6609-4a62-a530-59ae62056dea.jpg?ci_seal=ce848fe147c8028f7756cd28486216503dff75ac",
+      "src": "/assets/biens/terrain-montamise-14/07.jpg",
+      "alt": "Jardin — terrain à Montamisé"
+    }
+  ],
+  "contentHash": "f383398300b6ad54a939b988cb7f588589924207c8d7d2bb8089ef4833a6afa3"
+}

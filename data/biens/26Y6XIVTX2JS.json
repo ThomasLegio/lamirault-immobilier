@@ -1,0 +1,66 @@
+{
+  "id": "26Y6XIVTX2JS",
+  "reference": "32",
+  "slug": "terrain-saint-julien-l-ars-32",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/saint-julien-l-ars-86800/26Y6XIVTX2JS",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-22T00:45:14.355Z",
+  "importedAt": "2026-10-22T15:30:03.674Z",
+  "title": "Terrain viabilisé - lot 53",
+  "type": "Terrain",
+  "city": "Saint-Julien-l'Ars",
+  "postalCode": "86800",
+  "district": "",
+  "price": 42900,
+  "priceLabel": "42 900 €",
+  "priceDetails": [],
+  "feeNote": "Les honoraires sont à la charge du vendeur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 450,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose ce terrain viabilisé, d'une surface de 450 m2, idéalement situé à Saint-Julien-l'Ars.\n\nVous souhaitez faire construire votre maison dans une commune où il fait bon vivre et entreprendre. Le lotissement est situé à Saint-Julien-l'Ars, sa situation géographique, proche de la Vienne, de la forêt de Moulière, du Futuroscope, de villes dotées d'un patrimoine architectural et historique. La localisation vous fera profiter d'une vue verdoyante tout en restant à seulement 10 minutes de Poitiers.\n\nUne proximité immédiate des commodités : écoles maternelle et élémentaire, commerces, boulangerie- pâtisserie, supermarchés, banque, station-service etc.\n\nNous vous proposons un large choix de surface à des prix attractifs. Libre de constructeurs. Permis de construire déposable immédiatement.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "450 m² de terrain"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "ec6eb657-7d60-46a1-bed9-7b824e6093e3",
+      "sourceUrl": "https://mms.seloger.com/e/c/6/e/ec6eb657-7d60-46a1-bed9-7b824e6093e3.jpg?ci_seal=edee27a6c8fab33770aa9de447d0ac3519ed107a",
+      "src": "/assets/biens/terrain-saint-julien-l-ars-32/01.jpg",
+      "alt": "Jardin — terrain à Saint-Julien-l'Ars"
+    },
+    {
+      "sourceId": "018759ce-6ec7-4a9e-aa7d-dcf0f93a56ce",
+      "sourceUrl": "https://mms.seloger.com/0/1/8/7/018759ce-6ec7-4a9e-aa7d-dcf0f93a56ce.jpg?ci_seal=5ae66deb98c5deafc09c98d8fdb64ab6c14db418",
+      "src": "/assets/biens/terrain-saint-julien-l-ars-32/02.jpg",
+      "alt": "Jardin — terrain à Saint-Julien-l'Ars"
+    },
+    {
+      "sourceId": "b3af0f74-30d4-41d5-a7d9-91f4bc668094",
+      "sourceUrl": "https://mms.seloger.com/b/3/a/f/b3af0f74-30d4-41d5-a7d9-91f4bc668094.jpg?ci_seal=43b081b552b64e0b66369272190870cb27c34c2d",
+      "src": "/assets/biens/terrain-saint-julien-l-ars-32/03.jpg",
+      "alt": "Jardin — terrain à Saint-Julien-l'Ars"
+    },
+    {
+      "sourceId": "ef420b25-8ba8-4d9c-bd77-52bbd2bfd2d2",
+      "sourceUrl": "https://mms.seloger.com/e/f/4/2/ef420b25-8ba8-4d9c-bd77-52bbd2bfd2d2.jpg?ci_seal=faead88fba7df274a96e306b527f9d7316a8da5f",
+      "src": "/assets/biens/terrain-saint-julien-l-ars-32/04.jpg",
+      "alt": "Jardin — terrain à Saint-Julien-l'Ars"
+    }
+  ],
+  "contentHash": "46b013376a00915b590a6ae2a107d001529feeb9955998b938e308a37365aa72"
+}

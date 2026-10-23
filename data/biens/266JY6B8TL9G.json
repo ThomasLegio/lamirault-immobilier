@@ -1,0 +1,55 @@
+{
+  "id": "266JY6B8TL9G",
+  "reference": "36",
+  "slug": "terrain-saint-benoit-36",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/saint-benoit-86280/266JY6B8TL9G",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-09T00:41:22.326Z",
+  "importedAt": "2026-10-22T15:30:03.600Z",
+  "title": "Terrain non viabilisé - 278 m2",
+  "type": "Terrain",
+  "city": "Saint-Benoît",
+  "postalCode": "86280",
+  "district": "Zone d'Activité du Grand Large",
+  "price": 49900,
+  "priceLabel": "49 900 €",
+  "priceDetails": [],
+  "feeNote": "Les honoraires sont à la charge du vendeur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 278,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose ce terrain non viabilisé, d'une surface de 278 m2, idéalement situé à quelques mètres de la salle des fêtes La Hune.\n\nVous souhaitez profiter de la quiétude d'un quartier agréable, tout en étant à proximité de toutes les commodités. Venez découvrir la commune de Saint-Benoit, offrant un cadre de vie paisible tout en étant à proximité de toutes les commodités. Vous êtes à quelques minutes de Poitiers, avec un accès facile aux commerces, restaurants, écoles et transports.\n\nLibre de constructeurs.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "278 m² de terrain",
+        "Non accessible aux personnes à mobilité réduite"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "42f95c4d-9642-4970-aa52-acfa3afa9196",
+      "sourceUrl": "https://mms.seloger.com/4/2/f/9/42f95c4d-9642-4970-aa52-acfa3afa9196.jpg?ci_seal=f9bc71486685e5e0cfca8b7c15a2695a116f3097",
+      "src": "/assets/biens/terrain-saint-benoit-36/01.jpg",
+      "alt": "Jardin — terrain à Saint-Benoît"
+    },
+    {
+      "sourceId": "1cc84d37-3e1d-4d6f-bd47-5d6a8e3b92de",
+      "sourceUrl": "https://mms.seloger.com/1/c/c/8/1cc84d37-3e1d-4d6f-bd47-5d6a8e3b92de.jpg?ci_seal=e47b4d5fd2f3f0c64d3268e64a5cf2beb4b96992",
+      "src": "/assets/biens/terrain-saint-benoit-36/02.jpg",
+      "alt": "Jardin — terrain à Saint-Benoît"
+    }
+  ],
+  "contentHash": "3ef96f0e8550540c0af6ee33d5000ec3a207406f76f4fe95df5bed828886652c"
+}

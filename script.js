@@ -390,7 +390,7 @@ if (stickyCta && 'IntersectionObserver' in window) {
     stickyCta.classList.toggle('is-hidden', visibleSections.size > 0);
   });
   ctaObserver.observe(form);
-  const footer = document.querySelector('.site-footer');
+  const footer = document.querySelector('.li-footer, .site-footer');
   if (footer) ctaObserver.observe(footer);
 }
 

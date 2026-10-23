@@ -1,0 +1,69 @@
+{
+  "id": "2663AA7HHDSC",
+  "reference": "35",
+  "slug": "terrain-vouneuil-sous-biard-35",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/vouneuil-sous-biard-86580/2663AA7HHDSC",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-02T00:36:31.489Z",
+  "importedAt": "2026-10-22T15:30:03.590Z",
+  "title": "Terrain viabilisé - lot 23",
+  "type": "Terrain",
+  "city": "Vouneuil-sous-Biard",
+  "postalCode": "86580",
+  "district": "",
+  "price": 79000,
+  "priceLabel": "79 000 €",
+  "priceDetails": [
+    {
+      "label": "Prix hors honoraires",
+      "value": "74 100 €"
+    },
+    {
+      "label": "Honoraires TTC à la charge de l'acquéreur (6,61% du prix du bien hors honoraires)",
+      "value": "4 900 €"
+    }
+  ],
+  "feeNote": "Les honoraires sont à la charge de l'acquéreur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 661,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose ce terrain viabilisé, d'une surface de 661 m2, idéalement situé à Vouneuil-sous-Biard.\n\nVous souhaitez profiter de la quiétude d'un quartier agréable, tout en étant à proximité de toutes les commodités. Venez découvrir la commune de Vouneuil-sous-Biard, offrant un cadre de vie paisible tout en étant à proximité de toutes les commodités. Vous êtes à quelques minutes de Poitiers, avec un accès facile aux commerces, restaurants, écoles et transports.\n\nNous vous proposons un large choix de surface à des prix attractifs. Libre de constructeurs. Permis de construire déposable immédiatement.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "661 m² de terrain"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "b3141109-a7a9-4650-9629-71867facb8c7",
+      "sourceUrl": "https://mms.seloger.com/b/3/1/4/b3141109-a7a9-4650-9629-71867facb8c7.jpg?ci_seal=fe50cd4ec93593403d609b55999086c5bf0b7672",
+      "src": "/assets/biens/terrain-vouneuil-sous-biard-35/01.jpg",
+      "alt": "Jardin — terrain à Vouneuil-sous-Biard"
+    },
+    {
+      "sourceId": "33c56d81-85e0-4e1f-9bb5-a08ec6445a22",
+      "sourceUrl": "https://mms.seloger.com/3/3/c/5/33c56d81-85e0-4e1f-9bb5-a08ec6445a22.jpg?ci_seal=bd74047666ad59d2c0c463b3a64b0166d3a85c59",
+      "src": "/assets/biens/terrain-vouneuil-sous-biard-35/02.jpg",
+      "alt": "Jardin — terrain à Vouneuil-sous-Biard"
+    },
+    {
+      "sourceId": "007090d3-ee51-4a0f-8f2f-5e30928fabdf",
+      "sourceUrl": "https://mms.seloger.com/0/0/7/0/007090d3-ee51-4a0f-8f2f-5e30928fabdf.jpg?ci_seal=c46cc8e21dab8ae102237281dbb06d3b070a6428",
+      "src": "/assets/biens/terrain-vouneuil-sous-biard-35/03.jpg",
+      "alt": "Jardin — terrain à Vouneuil-sous-Biard"
+    }
+  ],
+  "contentHash": "37544f4c6925836f6510fadac61419b4fd088e9b112379380e3358f287a20407"
+}

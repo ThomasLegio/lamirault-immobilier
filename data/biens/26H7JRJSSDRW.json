@@ -1,0 +1,56 @@
+{
+  "id": "26H7JRJSSDRW",
+  "reference": "6",
+  "slug": "terrain-constructible-viabilise-cisse-6",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/cisse-86170/26H7JRJSSDRW",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-09-03T00:41:27.615Z",
+  "importedAt": "2026-10-22T15:30:03.629Z",
+  "title": "Terrain viabilisé de 730 m²",
+  "type": "Terrain constructible viabilisé",
+  "city": "Cissé",
+  "postalCode": "86170",
+  "district": "",
+  "price": 62900,
+  "priceLabel": "62 900 €",
+  "priceDetails": [],
+  "feeNote": "Les honoraires sont à la charge du vendeur",
+  "livingArea": null,
+  "overallArea": null,
+  "plotArea": 730,
+  "rooms": null,
+  "bedrooms": null,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose un terrain constructible et entièrement viabilisé à vendre à Cissé, idéal pour concrétiser votre projet de construction de maison individuelle dans un environnement calme et agréable.\n\nCe terrain bénéficie d’un cadre de vie paisible tout en restant à proximité des commodités, des écoles, des commerces et des axes routiers. Une localisation idéale pour allier confort de vie et accessibilité. Vous disposez d'un terrain prêt à bâtir, vous permettant de démarrer votre projet dans les meilleures conditions, sans contrainte liée aux réseaux.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "730 m² de terrain",
+        "Calme",
+        "Électricité, Eau"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [],
+    "scales": [],
+    "notes": []
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "bcef248e-fa8f-49df-b155-f36e139a210b",
+      "sourceUrl": "https://mms.seloger.com/b/c/e/f/bcef248e-fa8f-49df-b155-f36e139a210b.jpg?ci_seal=f1ba4e417063d1bec3b2f1329ae69f60a99442e2",
+      "src": "/assets/biens/terrain-constructible-viabilise-cisse-6/01.jpg",
+      "alt": "Jardin — terrain constructible viabilisé à Cissé"
+    },
+    {
+      "sourceId": "21d8a516-b72d-4ec7-af69-dd3c3dda7f1a",
+      "sourceUrl": "https://mms.seloger.com/2/1/d/8/21d8a516-b72d-4ec7-af69-dd3c3dda7f1a.jpg?ci_seal=239ee22f17a0f97437a8feb0929ccf32bd4a3f7c",
+      "src": "/assets/biens/terrain-constructible-viabilise-cisse-6/02.jpg",
+      "alt": "Jardin — terrain constructible viabilisé à Cissé"
+    }
+  ],
+  "contentHash": "07acdab94a07acde2c42da67c549f2ad9c653c61decd261a78364126a01e0621"
+}

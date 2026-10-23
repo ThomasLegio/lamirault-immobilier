@@ -1,0 +1,184 @@
+{
+  "id": "265U6QSAMBT5",
+  "reference": "43",
+  "slug": "maison-saint-benoit-43",
+  "status": "active",
+  "source": "https://www.seloger.com/annonce/achat/nouvelle-aquitaine/vienne-86/saint-benoit-86280/265U6QSAMBT5",
+  "sourceAgency": "https://www.seloger.com/professionnels-immobilier/KYJUjgFwx7VwAGZYPnmavQ",
+  "sourceUpdatedAt": "2026-10-22T01:06:31.075Z",
+  "importedAt": "2026-10-22T15:30:03.583Z",
+  "title": "Maison de ville avec suite parentale et cave — Saint-Benoît",
+  "type": "Maison",
+  "city": "Saint-Benoît",
+  "postalCode": "86280",
+  "district": "Bourg",
+  "price": 184900,
+  "priceLabel": "184 900 €",
+  "priceDetails": [
+    {
+      "label": "Prix hors honoraires",
+      "value": "175 000 €"
+    },
+    {
+      "label": "Honoraires TTC à la charge de l'acquéreur (5,66% du prix du bien hors honoraires)",
+      "value": "9 900 €"
+    }
+  ],
+  "feeNote": "Les honoraires sont à la charge de l'acquéreur",
+  "livingArea": 90,
+  "overallArea": null,
+  "plotArea": 130,
+  "rooms": 3,
+  "bedrooms": 2,
+  "description": "LAMIRAULT IMMOBILIER, votre agence immobilière indépendante à Poitiers, vous propose cette charmante maison de ville pleine de cachet, idéalement située sur la commune prisée de Saint-Benoît, aux portes immédiates de Poitiers.\n\nD'une surface habitable d'environ 90m², cette maison à étages séduit d'emblée par son authenticité et son agencement optimisé, pensé pour offrir un cadre de vie chaleureux et fonctionnel.\n\nDès l'entrée, vous découvrirez une belle pièce de vie lumineuse de plus de 36m², réunissant un salon convivial et une cuisine ouverte équipée avec électroménager encastré, idéale pour partager d'agréables moments en famille ou entre amis. Un WC indépendant complète ce niveau pour plus de praticité. Ainsi qu'un accés à une cave de 25m².\n\nAu premier étage, l'espace nuit propose une première pièce spacieuse de 15m², un bureau de 8m² parfait pour le télétravail ou une chambre d'appoint, ainsi qu'une salle d'eau avec WC.\n\nAu deuxième étage, une suite parentale sous combles de plus de 20m², véritable cocon doté de sa propre salle de bains complète (baignoire et douche), de son WC privatif et d'un dressing sur mesure.\n\nCôté technique : menuiseries en PVC double vitrage, chauffage électrique, assainissement collectif raccordé au tout-à-l'égout, fibre optique.",
+  "features": [
+    {
+      "title": "Informations générales",
+      "values": [
+        "Exposition: nord, est",
+        "130 m² de terrain"
+      ]
+    },
+    {
+      "title": "Intérieur",
+      "values": [
+        "Cuisine ouverte, Cuisine intégrée",
+        "1 Salle de bain; 1 Salle de douche",
+        "2 WCs séparées",
+        "Salon (total 36 m²)",
+        "2 Chambres",
+        "Cave",
+        "Entrée séparée"
+      ]
+    },
+    {
+      "title": "Extérieur",
+      "values": [
+        "Pas de balcon",
+        "Pas de garage"
+      ]
+    }
+  ],
+  "energy": {
+    "features": [
+      {
+        "type": "yearOfConstruction",
+        "label": "Année de construction",
+        "value": "1985"
+      },
+      {
+        "type": "state",
+        "label": "État",
+        "value": "Entretenu"
+      },
+      {
+        "type": "heatingSystem",
+        "label": "Type de chauffage",
+        "value": "Chauffage individuel"
+      },
+      {
+        "type": "energySource",
+        "label": "Sources d'énergie",
+        "value": "Électrique"
+      }
+    ],
+    "scales": [
+      {
+        "name": "Diagnostic de performance énergétique (DPE)",
+        "rating": "C",
+        "values": [
+          {
+            "value": "159 kWh/m².an",
+            "label": "Consommation (énergie primaire)"
+          },
+          {
+            "value": "83 kWh/m².an",
+            "label": "Énergie finale"
+          },
+          {
+            "value": "6 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      },
+      {
+        "name": "Indice d'émission de gaz à effet de serre (GES)",
+        "rating": "B",
+        "values": [
+          {
+            "value": "6 kg CO₂/m².an",
+            "label": "Émissions"
+          }
+        ]
+      }
+    ],
+    "notes": [
+      "Diagnostic réalisé : Après le 1er juillet 2021",
+      "Montant estimé des dépenses annuelles d'énergie pour un usage standard : entre 1310 et 1810 € par an. Prix moyens des énergies indexés au 21/10/2026 (abonnement compris)."
+    ]
+  },
+  "contactName": "Nathan Lamirault",
+  "photos": [
+    {
+      "sourceId": "efb03466-0fa6-454a-a10d-3c14c9321f14",
+      "sourceUrl": "https://mms.seloger.com/e/f/b/0/efb03466-0fa6-454a-a10d-3c14c9321f14.jpg?ci_seal=29c7f6a1dce48737c77e0dc1a150fb95bff562be",
+      "src": "/assets/biens/maison-saint-benoit-43/01.jpg",
+      "alt": "Façade de la maison — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "ede73049-19a5-4c1c-87b6-ab3cb7b1295c",
+      "sourceUrl": "https://mms.seloger.com/e/d/e/7/ede73049-19a5-4c1c-87b6-ab3cb7b1295c.jpg?ci_seal=1401bf0f81add6b079be1bde644077e4b4b8f839",
+      "src": "/assets/biens/maison-saint-benoit-43/02.jpg",
+      "alt": "Bureau — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "d3e240a5-dde0-425d-a698-d5a10759254d",
+      "sourceUrl": "https://mms.seloger.com/d/3/e/2/d3e240a5-dde0-425d-a698-d5a10759254d.jpg?ci_seal=576513f944e70565d7779f24b84148431c8c3d2f",
+      "src": "/assets/biens/maison-saint-benoit-43/03.jpg",
+      "alt": "Salon — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "79a788a2-6e73-4e11-90bf-8e24e70ee2a9",
+      "sourceUrl": "https://mms.seloger.com/7/9/a/7/79a788a2-6e73-4e11-90bf-8e24e70ee2a9.jpg?ci_seal=36bdb62bbc2daf497acf0b474f4988b5c2e66d7d",
+      "src": "/assets/biens/maison-saint-benoit-43/04.jpg",
+      "alt": "Cuisine — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "7f97bf29-adb0-4698-92bd-552ee236a683",
+      "sourceUrl": "https://mms.seloger.com/7/f/9/7/7f97bf29-adb0-4698-92bd-552ee236a683.jpg?ci_seal=bbc1aefd1b23965284c4e52033e8d8d861689de6",
+      "src": "/assets/biens/maison-saint-benoit-43/05.jpg",
+      "alt": "Salon — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "a806498d-12a8-41c7-aa3e-5dd4a081458c",
+      "sourceUrl": "https://mms.seloger.com/a/8/0/6/a806498d-12a8-41c7-aa3e-5dd4a081458c.jpg?ci_seal=d22c23ed34cb9f2523aafebdd2c70a0a16559adb",
+      "src": "/assets/biens/maison-saint-benoit-43/06.jpg",
+      "alt": "Bureau — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "da0a1ce6-0bd7-4e5a-b5e7-a2a20d3c3453",
+      "sourceUrl": "https://mms.seloger.com/d/a/0/a/da0a1ce6-0bd7-4e5a-b5e7-a2a20d3c3453.jpg?ci_seal=f866ba52872fcc03059450035d1df16030ee064c",
+      "src": "/assets/biens/maison-saint-benoit-43/07.jpg",
+      "alt": "Chambre — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "d7392d28-3594-4fd2-8e22-129ecb46a9f3",
+      "sourceUrl": "https://mms.seloger.com/d/7/3/9/d7392d28-3594-4fd2-8e22-129ecb46a9f3.jpg?ci_seal=e89e6f11e6175919ef0d73c7a26a42f992420e9f",
+      "src": "/assets/biens/maison-saint-benoit-43/08.jpg",
+      "alt": "Cuisine — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "14453f55-c232-4cce-b890-c980a4881489",
+      "sourceUrl": "https://mms.seloger.com/1/4/4/5/14453f55-c232-4cce-b890-c980a4881489.jpg?ci_seal=fc869b86bb6a8bc2e2f4bc908922f667cca4df39",
+      "src": "/assets/biens/maison-saint-benoit-43/09.jpg",
+      "alt": "Placard — maison à Saint-Benoît"
+    },
+    {
+      "sourceId": "22868147-85f8-4cbf-b50e-a3f9272c1221",
+      "sourceUrl": "https://mms.seloger.com/2/2/8/6/22868147-85f8-4cbf-b50e-a3f9272c1221.jpg?ci_seal=9a4a43de5f5711c247ae161f1b797fd26cf562e5",
+      "src": "/assets/biens/maison-saint-benoit-43/10.jpg",
+      "alt": "Jardin — maison à Saint-Benoît"
+    }
+  ],
+  "contentHash": "fda6dfbe75b44617f74e9df70aa550f66daed8e03e0c4ff88d733785a2b0cfbf"
+}
