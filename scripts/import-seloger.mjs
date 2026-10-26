@@ -44,7 +44,7 @@ export function normalizeClassified(item, source, previous) {
   const certificate = s.energy?.certificates?.[0];
   const photos = (item.domains?.medias?.images || []).map((p,i) => ({
     sourceId:p.id, sourceUrl:p.url, src:previous?.photos?.find(old=>old.sourceId===p.id)?.src || `/assets/biens/${localSlug}/${slugify(p.id)}.jpg`,
-    alt: `${p.description || `Photo ${i+1}`} — ${type.toLowerCase()} à ${address.city}`,
+    alt: `${p.description || `Photo ${i+1}`} - ${type.toLowerCase()} à ${address.city}`,
   }));
   if (!photos.length) throw new Error('Aucune photo disponible.');
   return {

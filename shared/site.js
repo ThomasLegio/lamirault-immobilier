@@ -6,7 +6,7 @@ document.querySelectorAll('[data-contact-form]').forEach(form=>{
    if(!field.name)continue;const label=form.querySelector(`label[for="${CSS.escape(field.id)}"]`)?.textContent.trim()||field.name;
    lines.push(`${label} ${field.value.trim()}`);
   }
-  const subject=form.dataset.contactForm==='nous-rejoindre'?'Candidature — Lamirault Immobilier':'Demande de contact — Lamirault Immobilier';
+  const subject=form.dataset.contactForm==='nous-rejoindre'?'Candidature - Lamirault Immobilier':'Demande de contact - Lamirault Immobilier';
   if(form.dataset.contactForm==='nous-rejoindre')lines.push('\nJe joins mon CV à cet e-mail.');
   const href=`mailto:contact@lamiraultimmobilier.fr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(lines.join('\n\n'))}`;
   const status=form.parentElement.querySelector('[role=status]');

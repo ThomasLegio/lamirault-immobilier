@@ -8,6 +8,7 @@ http.createServer(async(req,res)=>{
  try{
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);res.end();return;}
   const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
+  if(['/estimation','/estimation/','/estimation/index.html'].includes(pathname)){res.writeHead(308,{'Location':'/demande-estimation/'+new URL(req.url,'http://localhost').search});res.end();return;}
   if(pathname.split('/').some(p=>p.startsWith('.'))||/^\/(scripts|content)(\/|$)/.test(pathname)){res.writeHead(404);res.end();return;}
   let file=path.resolve(root,'.'+pathname);if(!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403);res.end();return;}
   try{if((await fs.stat(file)).isDirectory())file=path.join(file,'index.html');}catch{}

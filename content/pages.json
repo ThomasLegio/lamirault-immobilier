@@ -30,16 +30,6 @@
     "breadcrumbLabel": "Contact"
   },
   {
-    "route": "estimation",
-    "alias": "estimation",
-    "title": "\n    Estimation et avis de valeur à Neuville-de-Poitou\n  ",
-    "description": "Estimation précise de votre bien à Neuville-de-Poitou pour une vente optimale. Obtenez l'avis d'un professionnel et vendez dans les meilleures conditions.",
-    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/0cf0783a7c031e2a7ea291a18e4883a9-110bca32cf81.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-estimation.css\">",
-    "content": "estimation.html",
-    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
-    "breadcrumbLabel": "Estimation"
-  },
-  {
     "route": "",
     "alias": "home",
     "title": "\n    Agence immobilière à Neuville-de-Poitou\n  ",
@@ -138,12 +128,6 @@
     "content": "demande-estimation.html",
     "bodyClass": "estimate-page",
     "script": "/script.js",
-    "breadcrumbLabel": "Demander une estimation",
-    "breadcrumbParents": [
-      {
-        "label": "Estimation",
-        "href": "/estimation/"
-      }
-    ]
+    "breadcrumbLabel": "Demander une estimation"
   }
 ]
