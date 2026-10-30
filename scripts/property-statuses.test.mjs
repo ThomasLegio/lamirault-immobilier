@@ -32,3 +32,9 @@ test('vendu disparaît du catalogue et sa fiche devient une redirection sans dé
  assert.match(page.html,/http-equiv="refresh"/);assert.match(page.head,/noindex/);
  assert.ok(!page.html.includes('data-gallery-thumbnail'));
 });
+
+test('accepte l’intitulé abrégé utilisé par le tableau réel',()=>{
+ const actualHeader=['Réf annonce (interne)','','','','','','Statut'];
+ assert.equal(mergeStatuses([actualHeader,row('24','Sous compromis')],[{reference:'24'}],{'24':'active'})['24'],'under_offer');
+ assert.throws(()=>mergeStatuses([['Nom annonce','','','','','','Statut'],row('24','Vendu')],[{reference:'24'}],{}));
+});

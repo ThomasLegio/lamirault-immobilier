@@ -32,7 +32,7 @@ function synchroniserAnnonces() {
     const sheet = SpreadsheetApp.openById(TABLEAU_ID).getSheetByName('Annonces');
     if (!sheet) throw new Error('Onglet Annonces introuvable.');
     const values = sheet.getRange(1, 1, Math.max(1, sheet.getLastRow()), 7).getDisplayValues();
-    if (values[0][0] !== 'Référence de l’annonce (interne)' || values[0][6] !== 'Statut') throw new Error('En-têtes Référence / Statut incorrects.');
+    if (['Référence de l’annonce (interne)', 'Réf annonce (interne)'].indexOf(values[0][0]) === -1 || values[0][6] !== 'Statut') throw new Error('En-têtes Référence / Statut incorrects.');
     const seen = {};
     const statuses = values.slice(1).map(function(row, i) {
       const ref = row[0].trim(), statut = row[6].trim();

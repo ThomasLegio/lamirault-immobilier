@@ -9,7 +9,7 @@ export async function readStatuses(root){
 export function mergeStatuses(values,properties,previous){
  if(!Array.isArray(values)||!values.length)throw new Error('Tableau Google vide ou invalide');
  const headers=values[0];
- if(headers[0]!== 'Référence de l’annonce (interne)' || headers[6]!=='Statut')throw new Error('Colonnes Référence / Statut déplacées ou renommées');
+ if(!['Référence de l’annonce (interne)', 'Réf annonce (interne)'].includes(headers[0]) || headers[6]!=='Statut')throw new Error('Colonnes Référence / Statut déplacées ou renommées');
  const known=new Set(properties.map(p=>String(p.reference)));
  if(known.size!==properties.length)throw new Error('Références internes dupliquées dans les annonces');
  const next={...previous},seen=new Set();
