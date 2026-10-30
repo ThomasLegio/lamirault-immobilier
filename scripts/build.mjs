@@ -9,6 +9,7 @@ const pages=[...JSON.parse(await fs.readFile(path.join(root,'content/pages.json'
 const header='<a class="li-skip" href="#main-content">Aller au contenu</a>'+await fs.readFile(path.join(root,'shared/header.html'),'utf8');
 const footer=await fs.readFile(path.join(root,'shared/footer.html'),'utf8');
 await fs.mkdir(out,{recursive:true});
+await fs.rm(path.join(out,'contact'),{recursive:true,force:true});
 for(const page of pages){
  const content=renderBreadcrumbs(page)+(page.html ?? await fs.readFile(path.join(root,'content',page.content),'utf8'));
  const html=`<!doctype html>\n<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(page.title)}</title><meta name="description" content="${esc(page.description)}"><meta name="theme-color" content="#003780"><link rel="icon" href="/assets/raw-7.png">${page.head}<link rel="stylesheet" href="/shared/shell.css"></head><body id="dmRoot" class="${page.bodyClass}" data-page-alias="${page.alias}"><div id="top"></div>${header}<div id="main-content" tabindex="-1">${content}</div>${footer}<script src="/shared/shell.js" defer></script>${page.script?`<script src="${page.script}" defer></script>`:''}</body></html>`;

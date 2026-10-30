@@ -14,20 +14,10 @@
     "alias": "actualite",
     "title": "\n    Retrouvez toute l'actu de LAMIRAULT IMMOBILIER\n  ",
     "description": "Retrouvez sur cette page toutes les actualités de l'entreprise LAMIRAULT IMMOBILIER et de notre secteur d'activité. Restez informé des dernières nouveautés.",
-    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/135a15536851387bbc0f5179f4a80bec-972918b34748.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-actualite.css\">",
+    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">",
     "content": "actualite.html",
-    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
+    "bodyClass": "news-page",
     "breadcrumbLabel": "Actualités"
-  },
-  {
-    "route": "contact",
-    "alias": "contact",
-    "title": "\n    Contactez LAMIRAULT IMMOBILIER à Neuville-de-Poitou\n  ",
-    "description": "Contactez l'entreprise LAMIRAULT IMMOBILIER par téléphone ou via le formulaire pour tout renseignement complémentaire ou afin de demander votre devis.",
-    "head": "<link rel=\"stylesheet\" href=\"/assets/source/css2-3b9654cc831d.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/d-css-runtime-flex-new-nav.min-494a30ca8f60.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/0cf0783a7c031e2a7ea291a18e4883a9-110bca32cf81.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/8dbf03f6f4d84f8498ec41901bcfadba_1.min-30d53dad33aa.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/solocal-runtime-dd9a0ae81174.css\">\n<link rel=\"stylesheet\" href=\"/assets/source/inline-contact.css\">",
-    "content": "contact.html",
-    "bodyClass": "dmRoot fix-mobile-scrolling flex-site dmResellerSite runtime-module-container",
-    "breadcrumbLabel": "Contact"
   },
   {
     "route": "",
