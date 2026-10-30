@@ -44,3 +44,6 @@
 @media(prefers-reduced-motion:reduce){.property-card,.property-card-photo img{transition:none}}
 /* Keep native select accessibility without Safari's platform gradient. */
 .catalogue select{appearance:none;background-color:#fff;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23003780' stroke-width='1.5'%3E%3Cpath d='m4 6 4 4 4-4'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;padding-right:36px}
+
+.property-card-status{position:absolute;top:14px;right:14px;padding:7px 11px;border-radius:4px;background:#003780;color:#fff;font-size:13px;font-weight:700}
+.property-card-status[data-status="under_offer"]{background:#795315}

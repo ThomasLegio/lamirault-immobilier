@@ -1,5 +1,6 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
+import {readStatuses,labels} from './property-statuses.mjs';
 
 export const escapeHtml = value => String(value ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const e = escapeHtml;
@@ -16,11 +17,13 @@ export async function loadProperties(root) {
   const dir=path.join(root,'data/biens');
   const names=(await fs.readdir(dir)).filter(name=>name.endsWith('.json'));
   const properties=await Promise.all(names.map(async name=>JSON.parse(await fs.readFile(path.join(dir,name),'utf8'))));
+  const statuses=await readStatuses(root);
+  for(const p of properties) p.status=statuses[p.reference] ?? p.status;
   const slugs=new Set();
   for(const p of properties){
     if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.slug) || slugs.has(p.slug)) throw new Error(`Slug de bien invalide ou dupliqué : ${p.slug}`);
     slugs.add(p.slug);
-    if(!['active','archived'].includes(p.status)) throw new Error(`Statut invalide : ${p.id}`);
+    if(!['active','under_offer','sold','archived'].includes(p.status)) throw new Error(`Statut invalide : ${p.id}`);
     if(!p.title || !p.city || !p.description || !(p.price>0) || !p.photos?.length) throw new Error(`Fiche incomplète : ${p.id}`);
     if(!(p.livingArea>0 || p.overallArea>0 || p.plotArea>0)) throw new Error(`Surface manquante : ${p.id}`);
     for(const photo of p.photos){
@@ -51,7 +54,7 @@ export function renderProperty(p) {
   return `<main class="property-wrap">
   
   ${p.status==='archived'?'<p class="property-archive">Ce bien n’est plus proposé à la vente. <a href="/biens/">Découvrir nos biens disponibles</a>.</p>':''}
-  <header class="property-heading"><div><p class="property-eyebrow"><span class="property-status">${p.status==='active'?'À vendre':'Annonce archivée'}</span> ${e(p.type)} · Vienne</p><h1>${e(p.title)}</h1><p class="property-location">${e(p.city)} (${e(p.postalCode)})${p.district?` · ${e(p.district)}`:''}</p></div><p class="property-reference">Référence du bien : <strong>${e(p.reference)}</strong></p></header>
+  <header class="property-heading"><div><p class="property-eyebrow"><span class="property-status">${labels[p.status]}</span> ${e(p.type)} · Vienne</p><h1>${e(p.title)}</h1><p class="property-location">${e(p.city)} (${e(p.postalCode)})${p.district?` · ${e(p.district)}`:''}</p></div><p class="property-reference">Référence du bien : <strong>${e(p.reference)}</strong></p></header>
   <section class="property-gallery property-gallery-${indices.length}" data-property-gallery aria-label="Photos du bien">${gallery}</section>
   <div class="property-body"><div class="property-content">
     <dl class="property-stats">${rows(stats(p))}</dl>
@@ -66,18 +69,18 @@ export function renderProperty(p) {
 }
 
 export function renderCatalogue(properties){
-  const active=properties.filter(p=>p.status==='active');
+  const active=properties.filter(p=>['active','under_offer'].includes(p.status));
   const cities=[...new Set(active.map(p=>p.city))].sort((a,b)=>a.localeCompare(b,'fr'));
   const types=[...new Set(active.map(category))].sort((a,b)=>a.localeCompare(b,'fr'));
   const options=items=>items.map(v=>`<option value="${e(v)}">${e(v)}</option>`).join('');
   return `<main class="property-wrap catalogue" data-catalogue><header class="catalogue-heading"><p class="property-eyebrow">Lamirault Immobilier · Poitiers & la Vienne</p><h1>Nos biens à vendre</h1><p>Une maison pour votre famille, un terrain pour construire ou un investissement pour demain. Découvrez les biens de notre agence.</p></header>
   <form class="catalogue-filters" data-catalogue-filters hidden aria-label="Filtrer les biens"><label>Commune<select name="city"><option value="">Toutes les communes</option>${options(cities)}</select></label><label>Type de bien<select name="type"><option value="">Tous les types</option>${options(types)}</select></label><label>Budget maximum<input name="budget" type="number" min="0" step="1000" inputmode="numeric" placeholder="Sans limite · €"></label><button type="reset">Réinitialiser</button></form>
   <div class="catalogue-toolbar"><p data-catalogue-count aria-live="polite" role="status">${active.length} biens à vendre</p><label data-catalogue-sort-label hidden>Trier par <select data-catalogue-sort aria-label="Trier les biens"><option value="selection">Notre sélection</option><option value="price-asc">Prix croissant</option><option value="price-desc">Prix décroissant</option><option value="area-desc">Surface décroissante</option></select></label></div>
-  <div class="catalogue-grid" data-catalogue-grid>${active.map((p,index)=>{const rating=p.energy.scales[0]?.rating;return `<article class="property-card" data-city="${e(p.city)}" data-type="${e(category(p))}" data-price="${p.price}" data-area="${p.livingArea || p.overallArea || p.plotArea || 0}" data-order="${index}"><a class="property-card-link" href="/biens/${e(p.slug)}/"><div class="property-card-photo"><img src="${e(p.photos[0].src)}" alt="${e(p.photos[0].alt)}" width="720" height="540" loading="${index<3?'eager':'lazy'}"><span class="property-card-type">${e(p.type)}</span></div><div class="property-card-content"><p class="property-card-city">${e(p.city)} <span>${e(p.postalCode)}</span></p><h2>${e(p.title)}</h2><p class="property-card-facts">${e(area(p))}${p.rooms?` · ${number(p.rooms)} pièces`:''}${p.bedrooms?` · ${number(p.bedrooms)} ch.`:''}</p><p class="property-card-price">${money(p.price)}</p><p class="property-card-fees">${e(p.feeNote)}</p><div class="property-card-bottom"><span>${rating?`DPE <strong class="property-card-dpe" data-rating="${e(rating)}">${e(rating)}</strong>`:`Réf. ${e(p.reference)}`}</span><span class="property-card-cta">Découvrir le bien</span></div></div></a></article>`;}).join('')}</div>
+  <div class="catalogue-grid" data-catalogue-grid>${active.map((p,index)=>{const rating=p.energy.scales[0]?.rating;return `<article class="property-card" data-city="${e(p.city)}" data-type="${e(category(p))}" data-price="${p.price}" data-area="${p.livingArea || p.overallArea || p.plotArea || 0}" data-order="${index}"><a class="property-card-link" href="/biens/${e(p.slug)}/"><div class="property-card-photo"><img src="${e(p.photos[0].src)}" alt="${e(p.photos[0].alt)}" width="720" height="540" loading="${index<3?'eager':'lazy'}"><span class="property-card-type">${e(p.type)}</span><span class="property-card-status" data-status="${p.status}">${labels[p.status]}</span></div><div class="property-card-content"><p class="property-card-city">${e(p.city)} <span>${e(p.postalCode)}</span></p><h2>${e(p.title)}</h2><p class="property-card-facts">${e(area(p))}${p.rooms?` · ${number(p.rooms)} pièces`:''}${p.bedrooms?` · ${number(p.bedrooms)} ch.`:''}</p><p class="property-card-price">${money(p.price)}</p><p class="property-card-fees">${e(p.feeNote)}</p><div class="property-card-bottom"><span>${rating?`DPE <strong class="property-card-dpe" data-rating="${e(rating)}">${e(rating)}</strong>`:`Réf. ${e(p.reference)}`}</span><span class="property-card-cta">Découvrir le bien</span></div></div></a></article>`;}).join('')}</div>
   <div class="catalogue-empty" data-catalogue-empty hidden><h2>Aucun bien ne correspond à votre recherche.</h2><p>Essayez une autre commune ou un budget plus large.</p><button type="button" data-catalogue-reset>Voir tous les biens</button></div>
   <section class="catalogue-help"><div><h2>Parlons de votre recherche.</h2><p>Vous n’avez pas encore trouvé votre bien ? Notre équipe vous accompagne dans votre projet.</p></div><a class="property-cta" href="mailto:contact@lamiraultimmobilier.fr">Contacter l’agence <span aria-hidden="true">→</span></a></section></main>`;
 }
 
 export function propertyPages(properties){
- return [{route:'biens',alias:'biens',breadcrumbLabel:'Nos biens',title:'Nos biens à vendre dans la Vienne | Lamirault Immobilier',description:'Découvrez les maisons, terrains et immeubles à vendre de Lamirault Immobilier à Poitiers et dans la Vienne.',head:'<link rel="stylesheet" href="/shared/property.css"><link rel="stylesheet" href="/shared/catalogue.css">',bodyClass:'property-page catalogue-page',script:'/shared/catalogue.js',html:renderCatalogue(properties)},...properties.map(p=>({route:`biens/${p.slug}`,breadcrumbLabel:`${p.type} à ${p.city} · Réf. ${p.reference}`,breadcrumbParents:[{label:'Nos biens',href:'/biens/'}],alias:`bien-${p.id}`,title:`${p.type} ${area(p)} à vendre à ${p.city} - ${money(p.price)} | Lamirault Immobilier`,description:`${p.title}. ${p.city} (${p.postalCode}) · ${area(p)} · ${money(p.price)}. Référence ${p.reference}. ${p.feeNote}.`,head:`<link rel="stylesheet" href="/shared/property.css"><meta property="og:type" content="website"><meta property="og:title" content="${e(p.title)}"><meta property="og:image" content="${e(p.photos[0].src)}">${p.status==='archived'?'<meta name="robots" content="noindex,follow">':''}`,bodyClass:'property-page',script:'/shared/property.js',html:renderProperty(p)}))];
+ return [{route:'biens',alias:'biens',breadcrumbLabel:'Nos biens',title:'Nos biens à vendre dans la Vienne | Lamirault Immobilier',description:'Découvrez les maisons, terrains et immeubles à vendre de Lamirault Immobilier à Poitiers et dans la Vienne.',head:'<link rel="stylesheet" href="/shared/property.css"><link rel="stylesheet" href="/shared/catalogue.css">',bodyClass:'property-page catalogue-page',script:'/shared/catalogue.js',html:renderCatalogue(properties)},...properties.map(p=>({route:`biens/${p.slug}`,breadcrumbLabel:`${p.type} à ${p.city} · Réf. ${p.reference}`,breadcrumbParents:[{label:'Nos biens',href:'/biens/'}],alias:`bien-${p.id}`,title:`${p.type} ${area(p)} à vendre à ${p.city} - ${money(p.price)} | Lamirault Immobilier`,description:`${p.title}. ${p.city} (${p.postalCode}) · ${area(p)} · ${money(p.price)}. Référence ${p.reference}. ${p.feeNote}.`,head:`<link rel="stylesheet" href="/shared/property.css"><meta property="og:type" content="website"><meta property="og:title" content="${e(p.title)}"><meta property="og:image" content="${e(p.photos[0].src)}">${['archived','sold'].includes(p.status)?'<meta name="robots" content="noindex,follow">':''}`,bodyClass:'property-page',script:'/shared/property.js',html:p.status==='sold'?'<main class="property-wrap"><meta http-equiv="refresh" content="0;url=/biens/"><h1>Ce bien n’est plus proposé à la vente</h1><a href="/biens/">Découvrir nos biens disponibles</a></main>':renderProperty(p)}))];
 }

@@ -30,7 +30,7 @@ for(const route of [...routes,'404.html']){
   }
 }
 const catalogue=await fs.readFile(path.join(root,'biens/index.html'),'utf8');
-assert.equal((catalogue.match(/class="property-card"/g)||[]).length,properties.filter(p=>p.status==='active').length);
+assert.equal((catalogue.match(/class="property-card"/g)||[]).length,properties.filter(p=>['active','under_offer'].includes(p.status)).length);
 let photoCount=0;
 const sourceIndex=process.argv.indexOf('--source-dir');
 const sourceDir=sourceIndex>=0?process.argv[sourceIndex+1]:null;
@@ -38,6 +38,12 @@ for(const p of properties){
   assert.equal(p.sourceAgency,agencyUrl);
   assert(p.source.endsWith('/'+p.id));
   const html=await fs.readFile(path.join(root,'biens',p.slug,'index.html'),'utf8');
+  if(p.status==='sold'){
+    assert(!catalogue.includes(`/biens/${p.slug}/`));
+    assert(html.includes('http-equiv="refresh"'));
+    assert(!html.includes('data-gallery-thumbnail'));
+    continue;
+  }
   assert(html.includes(escapeHtml(p.source)));
   assert(html.includes(`Référence du bien : <strong>${escapeHtml(p.reference)}</strong>`));
   assert.equal((html.match(/data-gallery-thumbnail /g)||[]).length,p.photos.length);
